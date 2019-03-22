@@ -1,0 +1,254 @@
+[I 07:36:46.161 LabApp] Writing notebook server cookie secret to /run/user/1002/jupyter/notebook_cookie_secret
+[I 07:36:47.994 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.6/dist-packages/jupyterlab
+[I 07:36:47.994 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[W 07:36:47.996 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 07:36:47.998 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.6/dist-packages/jupyterlab
+[I 07:36:47.998 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 07:36:47.998 LabApp] Serving notebooks from local directory: /home/jason/Documents
+[I 07:36:47.998 LabApp] The Jupyter Notebook is running at:
+[I 07:36:47.998 LabApp] http://(instance-1 or 127.0.0.1):5920/
+[I 07:36:47.998 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 07:37:40.098 LabApp] 302 GET / (140.115.82.211) 0.90ms
+[W 07:37:40.299 LabApp] Clearing invalid/expired login cookie username-34-73-41-71-5920
+[W 07:37:40.300 LabApp] Clearing invalid/expired login cookie username-34-73-41-71-5920
+[I 07:37:40.301 LabApp] 302 GET /lab? (140.115.82.211) 2.81ms
+[I 07:38:38.104 LabApp] 302 POST /login?next=%2Flab%3F (61.224.85.247) 1.35ms
+[I 07:38:38.226 LabApp] 302 POST /login?next=%2Flab%3F (61.224.85.247) 1.31ms
+[W 07:38:42.174 LabApp] Could not determine jupyterlab build status without nodejs
+[I 07:38:53.107 LabApp] Creating new notebook in /
+[I 07:38:53.136 LabApp] Writing notebook-signing key to /home/jason/.local/share/jupyter/notebook_secret
+[I 07:38:54.350 LabApp] Kernel started: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 07:38:55.312 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 07:38:55.728 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 07:39:57.291 LabApp] 302 POST /login?next=%2Flab%3F (140.115.82.211) 1.45ms
+[I 07:40:05.273 LabApp] Creating new notebook in /
+[I 07:40:06.191 LabApp] Kernel started: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 07:40:06.688 LabApp] Adapting to protocol v5.1 for kernel fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[W 07:40:10.781 LabApp] Could not determine jupyterlab build status without nodejs
+[I 07:40:11.128 LabApp] Adapting to protocol v5.1 for kernel fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 07:40:12.578 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 07:40:15.676 LabApp] Kernel started: 312b0926-7a1e-48f0-91dd-a5508eaeec80
+[I 07:40:16.127 LabApp] Adapting to protocol v5.1 for kernel 312b0926-7a1e-48f0-91dd-a5508eaeec80
+[I 07:40:54.771 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 07:42:06.721 LabApp] Saving file at /kmeans.ipynb
+[W 07:42:12.915 LabApp] 404 GET /api/contents/Untitled.ipynb?content=0&1553154223154 (140.115.82.211): No such file or directory: Untitled.ipynb
+[W 07:42:12.916 LabApp] No such file or directory: Untitled.ipynb
+[W 07:42:12.916 LabApp] 404 GET /api/contents/Untitled.ipynb?content=0&1553154223154 (140.115.82.211) 1.18ms referer=http://34.73.41.71:5920/lab?
+[I 07:42:13.126 LabApp] Uploading file to /Untitled.ipynb
+[I 07:44:07.164 LabApp] Saving file at /kmeans.ipynb
+[I 07:47:52.017 LabApp] Uploading file to /iris.csv
+[I 07:48:02.597 LabApp] Kernel shutdown: 312b0926-7a1e-48f0-91dd-a5508eaeec80
+[W 07:48:02.802 LabApp] delete /Untitled.ipynb
+[I 07:48:07.868 LabApp] Saving file at /kmeans.ipynb
+[I 07:50:08.693 LabApp] Saving file at /kmeans.ipynb
+[I 08:00:11.821 LabApp] Saving file at /kmeans.ipynb
+[I 08:02:12.378 LabApp] Saving file at /kmeans.ipynb
+[I 08:02:24.191 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel fbe36cd9-6f4a-421f-a980-8b5d481f9a4c restarted
+[I 08:04:13.893 LabApp] Saving file at /kmeans.ipynb
+[I 08:04:45.051 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:45.215 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:45.330 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:53.871 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:54.022 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:54.162 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:54.287 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:54.422 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:54.568 LabApp] Kernel interrupted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:56.761 LabApp] Starting buffering for fbe36cd9-6f4a-421f-a980-8b5d481f9a4c:c4202001-a16c-41d6-9685-63da3a54c960
+[I 08:04:57.069 LabApp] Kernel restarted: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:57.477 LabApp] Adapting to protocol v5.1 for kernel fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[I 08:04:57.478 LabApp] Restoring connection for fbe36cd9-6f4a-421f-a980-8b5d481f9a4c:c4202001-a16c-41d6-9685-63da3a54c960
+[I 08:04:57.478 LabApp] Replaying 7 buffered messages
+[I 08:04:57.776 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 08:06:14.467 LabApp] Saving file at /kmeans.ipynb
+[W 08:22:20.906 LabApp] Replacing stale connection: 312b0926-7a1e-48f0-91dd-a5508eaeec80:2975a9a8-c615-4f71-b518-9f1b130fad77
+[W 08:22:25.908 LabApp] 404 GET /api/kernels/312b0926-7a1e-48f0-91dd-a5508eaeec80/channels?session_id=2975a9a8-c615-4f71-b518-9f1b130fad77 (140.115.82.212): Kernel does not exist: 312b0926-7a1e-48f0-91dd-a5508eaeec80
+[W 08:22:25.931 LabApp] 404 GET /api/kernels/312b0926-7a1e-48f0-91dd-a5508eaeec80/channels?session_id=2975a9a8-c615-4f71-b518-9f1b130fad77 (140.115.82.212) 5027.66ms referer=None
+[W 08:22:26.332 LabApp] Replacing stale connection: 7e878ecd-b9b1-4bc5-a413-b782bd021539:d61f927d-a816-4c4b-a2dc-880e60832d39
+[I 08:22:31.335 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[W 08:22:31.737 LabApp] Replacing stale connection: 312b0926-7a1e-48f0-91dd-a5508eaeec80:2975a9a8-c615-4f71-b518-9f1b130fad77
+[W 08:26:33.092 LabApp] Replacing stale connection: 312b0926-7a1e-48f0-91dd-a5508eaeec80:2975a9a8-c615-4f71-b518-9f1b130fad77
+[W 08:30:42.078 LabApp] Replacing stale connection: 312b0926-7a1e-48f0-91dd-a5508eaeec80:2975a9a8-c615-4f71-b518-9f1b130fad77
+[W 08:34:59.078 LabApp] Replacing stale connection: 312b0926-7a1e-48f0-91dd-a5508eaeec80:2975a9a8-c615-4f71-b518-9f1b130fad77
+[I 09:30:32.056 LabApp] Saving file at /kmeans.ipynb
+[I 09:32:39.274 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539 restarted
+[I 09:33:19.880 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 09:37:54.188 LabApp] Starting buffering for 7e878ecd-b9b1-4bc5-a413-b782bd021539:cba7d5f5-c5b3-45bf-9f85-893fb27b6c40
+[I 09:37:54.498 LabApp] Kernel restarted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:37:54.913 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:37:54.914 LabApp] Restoring connection for 7e878ecd-b9b1-4bc5-a413-b782bd021539:cba7d5f5-c5b3-45bf-9f85-893fb27b6c40
+[I 09:37:54.914 LabApp] Replaying 7 buffered messages
+[I 09:38:09.071 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel fbe36cd9-6f4a-421f-a980-8b5d481f9a4c restarted
+[I 09:38:14.831 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:14.964 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:15.106 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:15.295 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:15.454 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:15.610 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:15.767 LabApp] Kernel interrupted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:17.285 LabApp] Starting buffering for 7e878ecd-b9b1-4bc5-a413-b782bd021539:cba7d5f5-c5b3-45bf-9f85-893fb27b6c40
+[I 09:38:22.319 LabApp] Kernel restarted: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:22.734 LabApp] Adapting to protocol v5.1 for kernel 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:22.735 LabApp] Restoring connection for 7e878ecd-b9b1-4bc5-a413-b782bd021539:cba7d5f5-c5b3-45bf-9f85-893fb27b6c40
+[I 09:38:32.933 LabApp] Saving file at /kmeans.ipynb
+[I 09:38:53.612 LabApp] Kernel shutdown: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:58.829 LabApp] Kernel shutdown: fbe36cd9-6f4a-421f-a980-8b5d481f9a4c
+[W 09:38:58.830 LabApp] Timeout waiting for kernel_info_reply: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:38:59.055 LabApp] Kernel started: 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b
+[I 09:38:59.544 LabApp] Kernel started: da36c9e6-522f-4f6e-9e5e-40409e969d45
+[W 09:39:22.322 LabApp] Timeout waiting for kernel_info_reply: 7e878ecd-b9b1-4bc5-a413-b782bd021539
+[I 09:39:23.707 LabApp] 302 GET /lab? (61.224.85.247) 1.00ms
+[I 09:39:25.444 LabApp] Adapting to protocol v5.1 for kernel 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b
+[I 09:39:25.857 LabApp] Adapting to protocol v5.1 for kernel da36c9e6-522f-4f6e-9e5e-40409e969d45
+[I 09:40:54.309 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 09:40:59.555 LabApp] Saving file at /kmeans.ipynb
+[I 09:42:54.898 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 09:44:56.065 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 09:46:46.670 LabApp] Uploading file to /zoo.csv
+[I 09:46:56.341 LabApp] Creating new notebook in /
+[I 09:46:57.390 LabApp] Kernel started: 06994c98-15df-421c-865b-26db727501c9
+[I 09:46:57.877 LabApp] Adapting to protocol v5.1 for kernel 06994c98-15df-421c-865b-26db727501c9
+[I 09:48:57.302 LabApp] Saving file at /Untitled.ipynb
+[I 09:50:57.962 LabApp] Saving file at /Untitled.ipynb
+[I 09:53:00.417 LabApp] Saving file at /Untitled.ipynb
+[I 09:53:03.982 LabApp] Saving file at /kmeans.ipynb
+[I 09:55:01.009 LabApp] Saving file at /Untitled.ipynb
+[I 09:57:01.793 LabApp] Saving file at /Untitled.ipynb
+[I 09:59:02.240 LabApp] Saving file at /Untitled.ipynb
+[I 10:01:02.706 LabApp] Saving file at /Untitled.ipynb
+[I 10:03:03.153 LabApp] Saving file at /Untitled.ipynb
+Future exception was never retrieved
+future: <Future finished exception=TimeoutError('Timeout waiting for restart',)>
+tornado.util.TimeoutError: Timeout waiting for restart
+Future exception was never retrieved
+future: <Future finished exception=TimeoutError('Timeout waiting for restart',)>
+tornado.util.TimeoutError: Timeout waiting for restart
+[I 10:05:03.640 LabApp] Saving file at /Untitled.ipynb
+[I 10:07:04.499 LabApp] Saving file at /Untitled.ipynb
+[I 10:09:05.305 LabApp] Saving file at /Untitled.ipynb
+[I 10:17:05.991 LabApp] Saving file at /zoo_kmeans.ipynb
+[I 10:32:17.189 LabApp] Creating new notebook in /
+[I 10:32:18.099 LabApp] Kernel started: 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5
+[I 10:33:03.942 LabApp] Adapting to protocol v5.1 for kernel 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5
+[I 10:34:19.130 LabApp] Saving file at /python.ipynb
+[I 10:35:08.971 LabApp] Saving file at /zoo_kmeans.ipynb
+[I 10:37:09.173 LabApp] Saving file at /kmeans.ipynb
+[I 10:37:09.436 LabApp] Saving file at /zoo_kmeans.ipynb
+[I 10:37:18.542 LabApp] Creating new notebook in /
+[I 10:37:19.462 LabApp] Kernel started: 2007ad92-5724-4e26-bb97-116702c16c9a
+[I 10:37:19.983 LabApp] Adapting to protocol v5.1 for kernel 2007ad92-5724-4e26-bb97-116702c16c9a
+[I 10:39:10.227 LabApp] Saving file at /kmeans.ipynb
+[I 10:39:19.453 LabApp] Saving file at /Untitled.ipynb
+[I 10:41:20.084 LabApp] Saving file at /Untitled.ipynb
+[I 10:50:22.014 LabApp] Saving file at /python.ipynb
+[I 10:51:23.032 LabApp] Saving file at /Untitled.ipynb
+[I 10:52:23.026 LabApp] Saving file at /python.ipynb
+[I 10:58:25.022 LabApp] Saving file at /python.ipynb
+[I 11:00:26.038 LabApp] Saving file at /python.ipynb
+[I 11:02:26.558 LabApp] Saving file at /python.ipynb
+[I 11:04:27.014 LabApp] Saving file at /python.ipynb
+[I 11:06:28.134 LabApp] Saving file at /python.ipynb
+[I 11:08:29.010 LabApp] Saving file at /python.ipynb
+[I 11:10:30.027 LabApp] Saving file at /python.ipynb
+[I 11:12:30.536 LabApp] Saving file at /python.ipynb
+[I 11:14:31.043 LabApp] Saving file at /python.ipynb
+[I 11:16:31.482 LabApp] Saving file at /python.ipynb
+[I 11:18:31.984 LabApp] Saving file at /python.ipynb
+[I 11:20:33.123 LabApp] Saving file at /python.ipynb
+[I 11:22:33.581 LabApp] Saving file at /python.ipynb
+[I 11:24:34.053 LabApp] Saving file at /python.ipynb
+[I 11:26:35.102 LabApp] Saving file at /python.ipynb
+[I 11:28:35.545 LabApp] Saving file at /python.ipynb
+[I 11:30:36.048 LabApp] Saving file at /python.ipynb
+[I 11:32:37.294 LabApp] Saving file at /python.ipynb
+[I 11:34:37.830 LabApp] Saving file at /python.ipynb
+[I 11:36:39.108 LabApp] Saving file at /python.ipynb
+[I 11:42:40.099 LabApp] Saving file at /python.ipynb
+[I 11:44:40.608 LabApp] Saving file at /python.ipynb
+[I 11:46:41.073 LabApp] Saving file at /python.ipynb
+[I 11:48:41.551 LabApp] Saving file at /python.ipynb
+[I 11:50:42.126 LabApp] Saving file at /python.ipynb
+[I 11:52:43.130 LabApp] Saving file at /python.ipynb
+[I 12:00:45.130 LabApp] Saving file at /python.ipynb
+[I 12:02:46.257 LabApp] Saving file at /python.ipynb
+[I 12:08:48.124 LabApp] Saving file at /python.ipynb
+[I 12:10:49.189 LabApp] Saving file at /python.ipynb
+[I 12:20:52.360 LabApp] Saving file at /python.ipynb
+[I 12:22:53.242 LabApp] Saving file at /python.ipynb
+[I 12:24:54.638 LabApp] Saving file at /python.ipynb
+[I 12:34:56.425 LabApp] Saving file at /python.ipynb
+[I 12:36:57.804 LabApp] Saving file at /python.ipynb
+[I 12:38:58.755 LabApp] Saving file at /python.ipynb
+[I 12:41:00.261 LabApp] Saving file at /python.ipynb
+[I 12:49:02.011 LabApp] Saving file at /python.ipynb
+[I 12:51:29.237 LabApp] Saving file at /kmeans.ipynb
+[I 12:53:30.234 LabApp] Saving file at /kmeans.ipynb
+[I 12:57:04.991 LabApp] Saving file at /python.ipynb
+[I 13:01:33.248 LabApp] Saving file at /kmeans.ipynb
+[I 13:03:33.734 LabApp] Saving file at /kmeans.ipynb
+[I 13:03:45.251 LabApp] Saving file at /Untitled.ipynb
+[I 13:05:46.321 LabApp] Saving file at /Untitled.ipynb
+[I 13:07:34.276 LabApp] Saving file at /kmeans.ipynb
+[I 13:09:34.872 LabApp] Saving file at /kmeans.ipynb
+[I 13:09:47.228 LabApp] Saving file at /Untitled.ipynb
+[I 13:11:48.265 LabApp] Saving file at /Untitled.ipynb
+[I 13:13:36.255 LabApp] Saving file at /kmeans.ipynb
+[I 13:13:48.917 LabApp] Saving file at /Untitled.ipynb
+[I 13:15:37.627 LabApp] Saving file at /kmeans.ipynb
+[I 13:17:38.121 LabApp] Saving file at /kmeans.ipynb
+[I 13:19:40.175 LabApp] Saving file at /kmeans.ipynb
+[I 13:39:45.709 LabApp] Saving file at /kmeans.ipynb
+[I 13:41:46.451 LabApp] Saving file at /kmeans.ipynb
+[I 13:43:47.491 LabApp] Saving file at /kmeans.ipynb
+[I 13:45:34.510 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 13:51:35.499 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 13:57:36.378 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 13:59:36.936 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:01:37.472 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:03:38.329 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:31:45.596 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:37:46.746 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:39:47.404 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:41:47.881 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:43:48.383 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 14:43:56.446 LabApp] Saving file at /kmeans.ipynb
+[W 16:29:49.985 LabApp] WebSocket ping timeout after 119802 ms.
+[I 16:29:54.988 LabApp] Starting buffering for 2007ad92-5724-4e26-bb97-116702c16c9a:589954b6-ee85-41e5-8b97-afbed48b9c44
+[W 16:29:55.447 LabApp] WebSocket ping timeout after 119734 ms.
+[W 16:29:55.860 LabApp] WebSocket ping timeout after 119801 ms.
+[W 16:29:57.881 LabApp] WebSocket ping timeout after 119711 ms.
+[I 16:30:00.450 LabApp] Starting buffering for 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b:a4c0fd4e-7c7c-436c-b078-a821e23af394
+[I 16:30:00.863 LabApp] Starting buffering for da36c9e6-522f-4f6e-9e5e-40409e969d45:d93ee445-8430-41be-a1e4-49ddcf0c2922
+[I 16:30:02.883 LabApp] Starting buffering for 06994c98-15df-421c-865b-26db727501c9:69914e8b-c0e4-4461-8e6c-113bec18eaf1
+[W 16:30:03.945 LabApp] WebSocket ping timeout after 119696 ms.
+[I 16:30:08.947 LabApp] Starting buffering for 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5:6bc9fe38-0a84-43ce-9328-4ba8bb3d4f38
+[I 16:48:18.744 LabApp] Adapting to protocol v5.1 for kernel 2007ad92-5724-4e26-bb97-116702c16c9a
+[I 16:48:18.745 LabApp] Restoring connection for 2007ad92-5724-4e26-bb97-116702c16c9a:589954b6-ee85-41e5-8b97-afbed48b9c44
+[I 16:48:23.702 LabApp] Adapting to protocol v5.1 for kernel 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b
+[I 16:48:23.703 LabApp] Restoring connection for 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b:a4c0fd4e-7c7c-436c-b078-a821e23af394
+[I 16:48:24.109 LabApp] Adapting to protocol v5.1 for kernel da36c9e6-522f-4f6e-9e5e-40409e969d45
+[I 16:48:24.110 LabApp] Restoring connection for da36c9e6-522f-4f6e-9e5e-40409e969d45:d93ee445-8430-41be-a1e4-49ddcf0c2922
+[I 16:48:25.543 LabApp] Adapting to protocol v5.1 for kernel 06994c98-15df-421c-865b-26db727501c9
+[I 16:48:25.544 LabApp] Restoring connection for 06994c98-15df-421c-865b-26db727501c9:69914e8b-c0e4-4461-8e6c-113bec18eaf1
+[I 16:48:31.596 LabApp] Adapting to protocol v5.1 for kernel 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5
+[I 16:48:31.597 LabApp] Restoring connection for 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5:6bc9fe38-0a84-43ce-9328-4ba8bb3d4f38
+[W 17:13:01.597 LabApp] WebSocket ping timeout after 119803 ms.
+[I 17:13:06.600 LabApp] Starting buffering for 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5:6bc9fe38-0a84-43ce-9328-4ba8bb3d4f38
+[W 17:13:18.746 LabApp] WebSocket ping timeout after 119711 ms.
+[W 17:13:23.703 LabApp] WebSocket ping timeout after 119800 ms.
+[I 17:13:23.747 LabApp] Starting buffering for 2007ad92-5724-4e26-bb97-116702c16c9a:589954b6-ee85-41e5-8b97-afbed48b9c44
+[W 17:13:24.111 LabApp] WebSocket ping timeout after 119774 ms.
+[W 17:13:25.545 LabApp] WebSocket ping timeout after 119752 ms.
+[I 17:13:28.706 LabApp] Starting buffering for 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b:a4c0fd4e-7c7c-436c-b078-a821e23af394
+[I 17:13:29.113 LabApp] Starting buffering for da36c9e6-522f-4f6e-9e5e-40409e969d45:d93ee445-8430-41be-a1e4-49ddcf0c2922
+[I 17:13:30.547 LabApp] Starting buffering for 06994c98-15df-421c-865b-26db727501c9:69914e8b-c0e4-4461-8e6c-113bec18eaf1
+[C 17:47:47.018 LabApp] received signal 15, stopping
+[I 17:47:47.019 LabApp] Shutting down 5 kernels
+[I 17:47:47.123 LabApp] Kernel shutdown: 8c8fac1b-559a-4bbb-bc6d-2070b2739d7b
+[I 17:47:47.123 LabApp] Kernel shutdown: da36c9e6-522f-4f6e-9e5e-40409e969d45
+[I 17:47:47.124 LabApp] Kernel shutdown: 06994c98-15df-421c-865b-26db727501c9
+[I 17:47:47.124 LabApp] Kernel shutdown: 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5
+[I 17:47:47.125 LabApp] Kernel shutdown: 2007ad92-5724-4e26-bb97-116702c16c9a
