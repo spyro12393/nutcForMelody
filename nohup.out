@@ -252,3 +252,1125 @@ tornado.util.TimeoutError: Timeout waiting for restart
 [I 17:47:47.124 LabApp] Kernel shutdown: 06994c98-15df-421c-865b-26db727501c9
 [I 17:47:47.124 LabApp] Kernel shutdown: 1427aaeb-84bd-49ff-bd1b-343e40f2a3a5
 [I 17:47:47.125 LabApp] Kernel shutdown: 2007ad92-5724-4e26-bb97-116702c16c9a
+[I 15:35:38.069 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.6/dist-packages/jupyterlab
+[I 15:35:38.070 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[W 15:35:38.071 LabApp] JupyterLab server extension not enabled, manually loading...
+[I 15:35:38.073 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.6/dist-packages/jupyterlab
+[I 15:35:38.073 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 15:35:38.073 LabApp] Serving notebooks from local directory: /home/spyro12393/nutcForMelody
+[I 15:35:38.073 LabApp] The Jupyter Notebook is running at:
+[I 15:35:38.074 LabApp] http://(instance-1 or 127.0.0.1):5920/
+[I 15:35:38.074 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 15:35:46.480 LabApp] Clearing invalid/expired login cookie username-34-73-41-71-5920
+[W 15:35:46.482 LabApp] Clearing invalid/expired login cookie username-34-73-41-71-5920
+[W 15:35:46.482 LabApp] Forbidden
+[W 15:35:46.483 LabApp] 403 GET /api/sessions?1553268946196 (61.224.85.247) 3.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:35:46.483 LabApp] Forbidden
+[W 15:35:46.483 LabApp] 403 GET /api/terminals?1553268946197 (61.224.85.247) 1.87ms referer=http://34.73.41.71:5920/lab?
+[W 15:35:47.310 LabApp] Forbidden
+[W 15:35:47.310 LabApp] 403 GET /api/kernelspecs?1553268947225 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:35:55.283 LabApp] Forbidden
+[W 15:35:55.283 LabApp] 403 GET /api/contents/?content=1&1553268955197 (61.224.85.247) 1.23ms referer=http://34.73.41.71:5920/lab?
+[W 15:35:56.310 LabApp] Forbidden
+[W 15:35:56.310 LabApp] 403 GET /api/sessions?1553268956226 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:35:56.312 LabApp] Forbidden
+[W 15:35:56.312 LabApp] 403 GET /api/terminals?1553268956227 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[I 15:36:00.940 LabApp] 302 GET / (61.58.182.145) 0.67ms
+[I 15:36:01.145 LabApp] 302 GET /lab? (61.58.182.145) 0.82ms
+[W 15:36:06.309 LabApp] Forbidden
+[W 15:36:06.309 LabApp] 403 GET /api/sessions?1553268966221 (61.224.85.247) 1.15ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:06.312 LabApp] Forbidden
+[W 15:36:06.312 LabApp] 403 GET /api/terminals?1553268966223 (61.224.85.247) 0.90ms referer=http://34.73.41.71:5920/lab?
+[I 15:36:08.381 LabApp] 302 POST /login?next=%2Flab%3F (61.58.182.145) 1.35ms
+[W 15:36:13.012 LabApp] Could not determine jupyterlab build status without nodejs
+[W 15:36:14.007 LabApp] 404 GET /lab/api/workspaces/lab?1553268973205 (61.58.182.145): Workspace 'lab' ('lab-a511') not found
+[W 15:36:14.007 LabApp] Workspace 'lab' ('lab-a511') not found
+[W 15:36:14.008 LabApp] 404 GET /lab/api/workspaces/lab?1553268973205 (61.58.182.145) 52.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:16.288 LabApp] Forbidden
+[W 15:36:16.288 LabApp] 403 GET /api/sessions?1553268976201 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:16.289 LabApp] Forbidden
+[W 15:36:16.289 LabApp] 403 GET /api/terminals?1553268976205 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:26.309 LabApp] Forbidden
+[W 15:36:26.310 LabApp] 403 GET /api/sessions?1553268986226 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:26.311 LabApp] Forbidden
+[W 15:36:26.311 LabApp] 403 GET /api/terminals?1553268986227 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:36.314 LabApp] Forbidden
+[W 15:36:36.314 LabApp] 403 GET /api/terminals?1553268996225 (61.224.85.247) 1.06ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:36.315 LabApp] Forbidden
+[W 15:36:36.315 LabApp] 403 GET /api/sessions?1553268996223 (61.224.85.247) 0.84ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:46.284 LabApp] Forbidden
+[W 15:36:46.285 LabApp] 403 GET /api/sessions?1553269006198 (61.224.85.247) 1.15ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:46.286 LabApp] Forbidden
+[W 15:36:46.286 LabApp] 403 GET /api/terminals?1553269006201 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:48.307 LabApp] Forbidden
+[W 15:36:48.308 LabApp] 403 GET /api/kernelspecs?1553269008223 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:56.310 LabApp] Forbidden
+[W 15:36:56.310 LabApp] 403 GET /api/sessions?1553269016221 (61.224.85.247) 1.22ms referer=http://34.73.41.71:5920/lab?
+[W 15:36:56.311 LabApp] Forbidden
+[W 15:36:56.311 LabApp] 403 GET /api/terminals?1553269016225 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:06.320 LabApp] Forbidden
+[W 15:37:06.321 LabApp] 403 GET /api/sessions?1553269026223 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:06.322 LabApp] Forbidden
+[W 15:37:06.322 LabApp] 403 GET /api/terminals?1553269026225 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:16.286 LabApp] Forbidden
+[W 15:37:16.287 LabApp] 403 GET /api/sessions?1553269036201 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:16.287 LabApp] Forbidden
+[W 15:37:16.288 LabApp] 403 GET /api/terminals?1553269036202 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:26.310 LabApp] Forbidden
+[W 15:37:26.311 LabApp] 403 GET /api/sessions?1553269046223 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:26.311 LabApp] Forbidden
+[W 15:37:26.312 LabApp] 403 GET /api/terminals?1553269046226 (61.224.85.247) 0.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:35.308 LabApp] Forbidden
+[W 15:37:35.309 LabApp] 403 GET /api/contents/?content=1&1553269055222 (61.224.85.247) 1.15ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:36.309 LabApp] Forbidden
+[W 15:37:36.309 LabApp] 403 GET /api/sessions?1553269056224 (61.224.85.247) 1.06ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:36.311 LabApp] Forbidden
+[W 15:37:36.312 LabApp] 403 GET /api/terminals?1553269056227 (61.224.85.247) 0.84ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:46.286 LabApp] Forbidden
+[W 15:37:46.287 LabApp] 403 GET /api/sessions?1553269066201 (61.224.85.247) 1.45ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:46.287 LabApp] Forbidden
+[W 15:37:46.287 LabApp] 403 GET /api/terminals?1553269066202 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:49.294 LabApp] Forbidden
+[W 15:37:49.294 LabApp] 403 GET /api/kernelspecs?1553269069209 (61.224.85.247) 1.06ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:56.309 LabApp] Forbidden
+[W 15:37:56.310 LabApp] 403 GET /api/sessions?1553269076225 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:37:56.311 LabApp] Forbidden
+[W 15:37:56.312 LabApp] 403 GET /api/terminals?1553269076226 (61.224.85.247) 0.93ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:06.310 LabApp] Forbidden
+[W 15:38:06.311 LabApp] 403 GET /api/sessions?1553269086225 (61.224.85.247) 1.36ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:06.312 LabApp] Forbidden
+[W 15:38:06.312 LabApp] 403 GET /api/terminals?1553269086227 (61.224.85.247) 0.76ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:16.287 LabApp] Forbidden
+[W 15:38:16.287 LabApp] 403 GET /api/sessions?1553269096202 (61.224.85.247) 1.55ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:16.288 LabApp] Forbidden
+[W 15:38:16.289 LabApp] 403 GET /api/terminals?1553269096204 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:26.309 LabApp] Forbidden
+[W 15:38:26.309 LabApp] 403 GET /api/sessions?1553269106225 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:26.310 LabApp] Forbidden
+[W 15:38:26.311 LabApp] 403 GET /api/terminals?1553269106227 (61.224.85.247) 0.66ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:36.311 LabApp] Forbidden
+[W 15:38:36.311 LabApp] 403 GET /api/sessions?1553269116225 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:36.312 LabApp] Forbidden
+[W 15:38:36.312 LabApp] 403 GET /api/terminals?1553269116228 (61.224.85.247) 0.62ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:46.297 LabApp] Forbidden
+[W 15:38:46.297 LabApp] 403 GET /api/sessions?1553269126211 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:46.298 LabApp] Forbidden
+[W 15:38:46.298 LabApp] 403 GET /api/terminals?1553269126214 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:50.310 LabApp] Forbidden
+[W 15:38:50.311 LabApp] 403 GET /api/kernelspecs?1553269130224 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:56.310 LabApp] Forbidden
+[W 15:38:56.310 LabApp] 403 GET /api/sessions?1553269136225 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:38:56.313 LabApp] Forbidden
+[W 15:38:56.313 LabApp] 403 GET /api/terminals?1553269136227 (61.224.85.247) 0.96ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:06.311 LabApp] Forbidden
+[W 15:39:06.312 LabApp] 403 GET /api/sessions?1553269146227 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:06.313 LabApp] Forbidden
+[W 15:39:06.313 LabApp] 403 GET /api/terminals?1553269146228 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:15.310 LabApp] Forbidden
+[W 15:39:15.311 LabApp] 403 GET /api/contents/?content=1&1553269155227 (61.224.85.247) 1.21ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:16.298 LabApp] Forbidden
+[W 15:39:16.299 LabApp] 403 GET /api/sessions?1553269156212 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:16.300 LabApp] Forbidden
+[W 15:39:16.300 LabApp] 403 GET /api/terminals?1553269156213 (61.224.85.247) 0.71ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:26.315 LabApp] Forbidden
+[W 15:39:26.315 LabApp] 403 GET /api/sessions?1553269166231 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:26.316 LabApp] Forbidden
+[W 15:39:26.316 LabApp] 403 GET /api/terminals?1553269166233 (61.224.85.247) 0.65ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:36.324 LabApp] Forbidden
+[W 15:39:36.324 LabApp] 403 GET /api/sessions?1553269176238 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:36.325 LabApp] Forbidden
+[W 15:39:36.325 LabApp] 403 GET /api/terminals?1553269176241 (61.224.85.247) 0.72ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:46.301 LabApp] Forbidden
+[W 15:39:46.302 LabApp] 403 GET /api/sessions?1553269186216 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:46.305 LabApp] Forbidden
+[W 15:39:46.305 LabApp] 403 GET /api/terminals?1553269186218 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:51.319 LabApp] Forbidden
+[W 15:39:51.320 LabApp] 403 GET /api/kernelspecs?1553269191233 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:56.311 LabApp] Forbidden
+[W 15:39:56.311 LabApp] 403 GET /api/sessions?1553269196227 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:39:56.313 LabApp] Forbidden
+[W 15:39:56.313 LabApp] 403 GET /api/terminals?1553269196228 (61.224.85.247) 0.87ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:06.312 LabApp] Forbidden
+[W 15:40:06.312 LabApp] 403 GET /api/sessions?1553269206226 (61.224.85.247) 1.53ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:06.315 LabApp] Forbidden
+[W 15:40:06.316 LabApp] 403 GET /api/terminals?1553269206229 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:16.300 LabApp] Forbidden
+[W 15:40:16.300 LabApp] 403 GET /api/sessions?1553269216215 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:16.301 LabApp] Forbidden
+[W 15:40:16.301 LabApp] 403 GET /api/terminals?1553269216217 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:26.320 LabApp] Forbidden
+[W 15:40:26.321 LabApp] 403 GET /api/sessions?1553269226236 (61.224.85.247) 1.36ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:26.322 LabApp] Forbidden
+[W 15:40:26.322 LabApp] 403 GET /api/terminals?1553269226237 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:36.318 LabApp] Forbidden
+[W 15:40:36.319 LabApp] 403 GET /api/sessions?1553269236229 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:36.321 LabApp] Forbidden
+[W 15:40:36.322 LabApp] 403 GET /api/terminals?1553269236230 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:46.304 LabApp] Forbidden
+[W 15:40:46.305 LabApp] 403 GET /api/sessions?1553269246219 (61.224.85.247) 1.41ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:46.306 LabApp] Forbidden
+[W 15:40:46.306 LabApp] 403 GET /api/terminals?1553269246221 (61.224.85.247) 0.83ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:52.295 LabApp] Forbidden
+[W 15:40:52.296 LabApp] 403 GET /api/kernelspecs?1553269252207 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:56.315 LabApp] Forbidden
+[W 15:40:56.316 LabApp] 403 GET /api/contents/?content=1&1553269256230 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:56.316 LabApp] Forbidden
+[W 15:40:56.317 LabApp] 403 GET /api/sessions?1553269256232 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:40:56.514 LabApp] Forbidden
+[W 15:40:56.514 LabApp] 403 GET /api/terminals?1553269256233 (61.224.85.247) 0.92ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:06.321 LabApp] Forbidden
+[W 15:41:06.321 LabApp] 403 GET /api/sessions?1553269266234 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:06.324 LabApp] Forbidden
+[W 15:41:06.325 LabApp] 403 GET /api/terminals?1553269266236 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:16.297 LabApp] Forbidden
+[W 15:41:16.297 LabApp] 403 GET /api/terminals?1553269276212 (61.224.85.247) 1.45ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:16.298 LabApp] Forbidden
+[W 15:41:16.298 LabApp] 403 GET /api/sessions?1553269276210 (61.224.85.247) 1.39ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:26.316 LabApp] Forbidden
+[W 15:41:26.316 LabApp] 403 GET /api/sessions?1553269286230 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:26.317 LabApp] Forbidden
+[W 15:41:26.318 LabApp] 403 GET /api/terminals?1553269286232 (61.224.85.247) 0.69ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:36.446 LabApp] Forbidden
+[W 15:41:36.446 LabApp] 403 GET /api/sessions?1553269296231 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:36.447 LabApp] Forbidden
+[W 15:41:36.448 LabApp] 403 GET /api/terminals?1553269296232 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:46.295 LabApp] Forbidden
+[W 15:41:46.295 LabApp] 403 GET /api/sessions?1553269306208 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:46.296 LabApp] Forbidden
+[W 15:41:46.297 LabApp] 403 GET /api/terminals?1553269306212 (61.224.85.247) 0.81ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:53.316 LabApp] Forbidden
+[W 15:41:53.316 LabApp] 403 GET /api/kernelspecs?1553269313231 (61.224.85.247) 1.21ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:56.317 LabApp] Forbidden
+[W 15:41:56.317 LabApp] 403 GET /api/sessions?1553269316231 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 15:41:56.318 LabApp] Forbidden
+[W 15:41:56.318 LabApp] 403 GET /api/terminals?1553269316233 (61.224.85.247) 0.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:06.316 LabApp] Forbidden
+[W 15:42:06.316 LabApp] 403 GET /api/terminals?1553269326232 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:06.317 LabApp] Forbidden
+[W 15:42:06.317 LabApp] 403 GET /api/sessions?1553269326230 (61.224.85.247) 0.72ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:16.299 LabApp] Forbidden
+[W 15:42:16.300 LabApp] 403 GET /api/sessions?1553269336210 (61.224.85.247) 1.48ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:16.304 LabApp] Forbidden
+[W 15:42:16.304 LabApp] 403 GET /api/terminals?1553269336215 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:26.317 LabApp] Forbidden
+[W 15:42:26.317 LabApp] 403 GET /api/sessions?1553269346231 (61.224.85.247) 1.09ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:26.321 LabApp] Forbidden
+[W 15:42:26.321 LabApp] 403 GET /api/terminals?1553269346234 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:36.374 LabApp] Forbidden
+[W 15:42:36.374 LabApp] 403 GET /api/contents/?content=1&1553269356231 (61.224.85.247) 1.46ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:36.375 LabApp] Forbidden
+[W 15:42:36.375 LabApp] 403 GET /api/sessions?1553269356233 (61.224.85.247) 0.85ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:37.479 LabApp] Forbidden
+[W 15:42:37.480 LabApp] 403 GET /api/terminals?1553269356235 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:46.297 LabApp] Forbidden
+[W 15:42:46.297 LabApp] 403 GET /api/sessions?1553269366210 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:46.298 LabApp] Forbidden
+[W 15:42:46.299 LabApp] 403 GET /api/terminals?1553269366214 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:54.320 LabApp] Forbidden
+[W 15:42:54.321 LabApp] 403 GET /api/kernelspecs?1553269374234 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:56.320 LabApp] Forbidden
+[W 15:42:56.320 LabApp] 403 GET /api/sessions?1553269376234 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 15:42:56.321 LabApp] Forbidden
+[W 15:42:56.321 LabApp] 403 GET /api/terminals?1553269376237 (61.224.85.247) 0.69ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:06.318 LabApp] Forbidden
+[W 15:43:06.319 LabApp] 403 GET /api/sessions?1553269386234 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:06.321 LabApp] Forbidden
+[W 15:43:06.321 LabApp] 403 GET /api/terminals?1553269386236 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:16.316 LabApp] Forbidden
+[W 15:43:16.316 LabApp] 403 GET /api/sessions?1553269396222 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:16.317 LabApp] Forbidden
+[W 15:43:16.317 LabApp] 403 GET /api/terminals?1553269396231 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:26.323 LabApp] Forbidden
+[W 15:43:26.324 LabApp] 403 GET /api/sessions?1553269406237 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:26.325 LabApp] Forbidden
+[W 15:43:26.325 LabApp] 403 GET /api/terminals?1553269406240 (61.224.85.247) 0.82ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:36.322 LabApp] Forbidden
+[W 15:43:36.322 LabApp] 403 GET /api/sessions?1553269416235 (61.224.85.247) 1.23ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:36.323 LabApp] Forbidden
+[W 15:43:36.323 LabApp] 403 GET /api/terminals?1553269416237 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:46.336 LabApp] Forbidden
+[W 15:43:46.337 LabApp] 403 GET /api/sessions?1553269426221 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:46.338 LabApp] Forbidden
+[W 15:43:46.338 LabApp] 403 GET /api/terminals?1553269426227 (61.224.85.247) 0.72ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:55.326 LabApp] Forbidden
+[W 15:43:55.327 LabApp] 403 GET /api/kernelspecs?1553269435222 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:56.324 LabApp] Forbidden
+[W 15:43:56.324 LabApp] 403 GET /api/sessions?1553269436242 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:43:56.325 LabApp] Forbidden
+[W 15:43:56.325 LabApp] 403 GET /api/terminals?1553269436243 (61.224.85.247) 0.62ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:06.323 LabApp] Forbidden
+[W 15:44:06.324 LabApp] 403 GET /api/sessions?1553269446236 (61.224.85.247) 1.53ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:06.325 LabApp] Forbidden
+[W 15:44:06.325 LabApp] 403 GET /api/terminals?1553269446240 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:16.318 LabApp] Forbidden
+[W 15:44:16.318 LabApp] 403 GET /api/sessions?1553269456226 (61.224.85.247) 1.26ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:16.319 LabApp] Forbidden
+[W 15:44:16.319 LabApp] 403 GET /api/terminals?1553269456231 (61.224.85.247) 0.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:17.319 LabApp] Forbidden
+[W 15:44:17.320 LabApp] 403 GET /api/contents/?content=1&1553269457237 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:26.324 LabApp] Forbidden
+[W 15:44:26.325 LabApp] 403 GET /api/sessions?1553269466242 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:26.326 LabApp] Forbidden
+[W 15:44:26.326 LabApp] 403 GET /api/terminals?1553269466243 (61.224.85.247) 0.77ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:36.322 LabApp] Forbidden
+[W 15:44:36.322 LabApp] 403 GET /api/sessions?1553269476238 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:36.323 LabApp] Forbidden
+[W 15:44:36.323 LabApp] 403 GET /api/terminals?1553269476241 (61.224.85.247) 0.70ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:46.327 LabApp] Forbidden
+[W 15:44:46.328 LabApp] 403 GET /api/terminals?1553269486218 (61.224.85.247) 1.05ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:46.329 LabApp] Forbidden
+[W 15:44:46.329 LabApp] 403 GET /api/sessions?1553269486216 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:56.320 LabApp] Forbidden
+[W 15:44:56.321 LabApp] 403 GET /api/sessions?1553269496237 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:56.322 LabApp] Forbidden
+[W 15:44:56.322 LabApp] 403 GET /api/kernelspecs?1553269496239 (61.224.85.247) 0.91ms referer=http://34.73.41.71:5920/lab?
+[W 15:44:56.519 LabApp] Forbidden
+[W 15:44:56.519 LabApp] 403 GET /api/terminals?1553269496241 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:06.323 LabApp] Forbidden
+[W 15:45:06.324 LabApp] 403 GET /api/sessions?1553269506240 (61.224.85.247) 1.40ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:06.325 LabApp] Forbidden
+[W 15:45:06.325 LabApp] 403 GET /api/terminals?1553269506242 (61.224.85.247) 0.70ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:16.309 LabApp] Forbidden
+[W 15:45:16.310 LabApp] 403 GET /api/sessions?1553269516226 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:16.310 LabApp] Forbidden
+[W 15:45:16.310 LabApp] 403 GET /api/terminals?1553269516228 (61.224.85.247) 0.66ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:26.323 LabApp] Forbidden
+[W 15:45:26.324 LabApp] 403 GET /api/sessions?1553269526240 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:26.325 LabApp] Forbidden
+[W 15:45:26.325 LabApp] 403 GET /api/terminals?1553269526241 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:36.408 LabApp] Forbidden
+[W 15:45:36.408 LabApp] 403 GET /api/sessions?1553269536240 (61.224.85.247) 1.21ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:36.409 LabApp] Forbidden
+[W 15:45:36.409 LabApp] 403 GET /api/terminals?1553269536242 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:46.305 LabApp] Forbidden
+[W 15:45:46.306 LabApp] 403 GET /api/terminals?1553269546221 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:46.307 LabApp] Forbidden
+[W 15:45:46.307 LabApp] 403 GET /api/sessions?1553269546219 (61.224.85.247) 0.75ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:56.328 LabApp] Forbidden
+[W 15:45:56.329 LabApp] 403 GET /api/sessions?1553269556244 (61.224.85.247) 1.47ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:56.330 LabApp] Forbidden
+[W 15:45:56.330 LabApp] 403 GET /api/terminals?1553269556247 (61.224.85.247) 0.94ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:57.325 LabApp] Forbidden
+[W 15:45:57.326 LabApp] 403 GET /api/contents/?content=1&1553269557242 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:45:57.329 LabApp] Forbidden
+[W 15:45:57.329 LabApp] 403 GET /api/kernelspecs?1553269557245 (61.224.85.247) 1.44ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:06.330 LabApp] Forbidden
+[W 15:46:06.330 LabApp] 403 GET /api/terminals?1553269566243 (61.224.85.247) 1.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:06.330 LabApp] Forbidden
+[W 15:46:06.330 LabApp] 403 GET /api/sessions?1553269566241 (61.224.85.247) 1.47ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:16.316 LabApp] Forbidden
+[W 15:46:16.317 LabApp] 403 GET /api/sessions?1553269576227 (61.224.85.247) 1.45ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:16.339 LabApp] Forbidden
+[W 15:46:16.340 LabApp] 403 GET /api/terminals?1553269576230 (61.224.85.247) 1.09ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:26.310 LabApp] Forbidden
+[W 15:46:26.310 LabApp] 403 GET /api/sessions?1553269586228 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:26.311 LabApp] Forbidden
+[W 15:46:26.312 LabApp] 403 GET /api/terminals?1553269586230 (61.224.85.247) 0.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:36.503 LabApp] Forbidden
+[W 15:46:36.503 LabApp] 403 GET /api/terminals?1553269596308 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:36.504 LabApp] Forbidden
+[W 15:46:36.504 LabApp] 403 GET /api/sessions?1553269596306 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:46.306 LabApp] Forbidden
+[W 15:46:46.306 LabApp] 403 GET /api/sessions?1553269606221 (61.224.85.247) 1.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:46.307 LabApp] Forbidden
+[W 15:46:46.307 LabApp] 403 GET /api/terminals?1553269606224 (61.224.85.247) 1.55ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:56.328 LabApp] Forbidden
+[W 15:46:56.329 LabApp] 403 GET /api/sessions?1553269616246 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:56.329 LabApp] Forbidden
+[W 15:46:56.330 LabApp] 403 GET /api/terminals?1553269616248 (61.224.85.247) 0.66ms referer=http://34.73.41.71:5920/lab?
+[W 15:46:58.311 LabApp] Forbidden
+[W 15:46:58.312 LabApp] 403 GET /api/kernelspecs?1553269618229 (61.224.85.247) 1.39ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:06.327 LabApp] Forbidden
+[W 15:47:06.327 LabApp] 403 GET /api/sessions?1553269626243 (61.224.85.247) 1.43ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:06.328 LabApp] Forbidden
+[W 15:47:06.329 LabApp] 403 GET /api/terminals?1553269626245 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:16.312 LabApp] Forbidden
+[W 15:47:16.312 LabApp] 403 GET /api/sessions?1553269636229 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:16.315 LabApp] Forbidden
+[W 15:47:16.315 LabApp] 403 GET /api/terminals?1553269636231 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:26.333 LabApp] Forbidden
+[W 15:47:26.333 LabApp] 403 GET /api/sessions?1553269646248 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:26.336 LabApp] Forbidden
+[W 15:47:26.336 LabApp] 403 GET /api/terminals?1553269646252 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:36.329 LabApp] Forbidden
+[W 15:47:36.330 LabApp] 403 GET /api/sessions?1553269656244 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:36.331 LabApp] Forbidden
+[W 15:47:36.331 LabApp] 403 GET /api/terminals?1553269656248 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:38.441 LabApp] Forbidden
+[W 15:47:38.442 LabApp] 403 GET /api/contents/?content=1&1553269658250 (61.224.85.247) 1.42ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:46.303 LabApp] Forbidden
+[W 15:47:46.304 LabApp] 403 GET /api/terminals?1553269666222 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:46.304 LabApp] Forbidden
+[W 15:47:46.305 LabApp] 403 GET /api/sessions?1553269666220 (61.224.85.247) 0.76ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:56.330 LabApp] Forbidden
+[W 15:47:56.330 LabApp] 403 GET /api/sessions?1553269676244 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:56.331 LabApp] Forbidden
+[W 15:47:56.332 LabApp] 403 GET /api/terminals?1553269676249 (61.224.85.247) 0.75ms referer=http://34.73.41.71:5920/lab?
+[W 15:47:59.326 LabApp] Forbidden
+[W 15:47:59.327 LabApp] 403 GET /api/kernelspecs?1553269679245 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:06.326 LabApp] Forbidden
+[W 15:48:06.326 LabApp] 403 GET /api/sessions?1553269686243 (61.224.85.247) 1.27ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:06.327 LabApp] Forbidden
+[W 15:48:06.328 LabApp] 403 GET /api/terminals?1553269686244 (61.224.85.247) 0.60ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:16.324 LabApp] Forbidden
+[W 15:48:16.325 LabApp] 403 GET /api/sessions?1553269696222 (61.224.85.247) 1.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:16.325 LabApp] Forbidden
+[W 15:48:16.325 LabApp] 403 GET /api/terminals?1553269696223 (61.224.85.247) 1.44ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:26.326 LabApp] Forbidden
+[W 15:48:26.326 LabApp] 403 GET /api/sessions?1553269706243 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:26.327 LabApp] Forbidden
+[W 15:48:26.327 LabApp] 403 GET /api/terminals?1553269706245 (61.224.85.247) 0.66ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:36.329 LabApp] Forbidden
+[W 15:48:36.330 LabApp] 403 GET /api/sessions?1553269716246 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:36.331 LabApp] Forbidden
+[W 15:48:36.331 LabApp] 403 GET /api/terminals?1553269716248 (61.224.85.247) 0.92ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:46.305 LabApp] Forbidden
+[W 15:48:46.305 LabApp] 403 GET /api/sessions?1553269726224 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:46.307 LabApp] Forbidden
+[W 15:48:46.308 LabApp] 403 GET /api/terminals?1553269726225 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:56.328 LabApp] Forbidden
+[W 15:48:56.328 LabApp] 403 GET /api/sessions?1553269736244 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 15:48:56.329 LabApp] Forbidden
+[W 15:48:56.330 LabApp] 403 GET /api/terminals?1553269736246 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:00.328 LabApp] Forbidden
+[W 15:49:00.329 LabApp] 403 GET /api/kernelspecs?1553269740245 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:06.334 LabApp] Forbidden
+[W 15:49:06.335 LabApp] 403 GET /api/sessions?1553269746251 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:06.336 LabApp] Forbidden
+[W 15:49:06.336 LabApp] 403 GET /api/terminals?1553269746253 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:16.316 LabApp] Forbidden
+[W 15:49:16.316 LabApp] 403 GET /api/sessions?1553269756233 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:16.317 LabApp] Forbidden
+[W 15:49:16.318 LabApp] 403 GET /api/terminals?1553269756235 (61.224.85.247) 0.80ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:19.305 LabApp] Forbidden
+[W 15:49:19.305 LabApp] 403 GET /api/contents/?content=1&1553269759223 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:26.331 LabApp] Forbidden
+[W 15:49:26.331 LabApp] 403 GET /api/sessions?1553269766247 (61.224.85.247) 1.12ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:26.332 LabApp] Forbidden
+[W 15:49:26.332 LabApp] 403 GET /api/terminals?1553269766249 (61.224.85.247) 0.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:36.332 LabApp] Forbidden
+[W 15:49:36.333 LabApp] 403 GET /api/sessions?1553269776247 (61.224.85.247) 1.71ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:36.333 LabApp] Forbidden
+[W 15:49:36.333 LabApp] 403 GET /api/terminals?1553269776249 (61.224.85.247) 1.44ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:46.320 LabApp] Forbidden
+[W 15:49:46.320 LabApp] 403 GET /api/sessions?1553269786232 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:46.321 LabApp] Forbidden
+[W 15:49:46.321 LabApp] 403 GET /api/terminals?1553269786234 (61.224.85.247) 0.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:56.329 LabApp] Forbidden
+[W 15:49:56.329 LabApp] 403 GET /api/sessions?1553269796246 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:49:56.330 LabApp] Forbidden
+[W 15:49:56.331 LabApp] 403 GET /api/terminals?1553269796248 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:01.312 LabApp] Forbidden
+[W 15:50:01.313 LabApp] 403 GET /api/kernelspecs?1553269801225 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:06.332 LabApp] Forbidden
+[W 15:50:06.332 LabApp] 403 GET /api/sessions?1553269806246 (61.224.85.247) 1.22ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:06.333 LabApp] Forbidden
+[W 15:50:06.333 LabApp] 403 GET /api/terminals?1553269806248 (61.224.85.247) 0.65ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:16.317 LabApp] Forbidden
+[W 15:50:16.317 LabApp] 403 GET /api/sessions?1553269816235 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:16.318 LabApp] Forbidden
+[W 15:50:16.319 LabApp] 403 GET /api/terminals?1553269816237 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:26.318 LabApp] Forbidden
+[W 15:50:26.318 LabApp] 403 GET /api/sessions?1553269826235 (61.224.85.247) 1.23ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:26.319 LabApp] Forbidden
+[W 15:50:26.320 LabApp] 403 GET /api/terminals?1553269826238 (61.224.85.247) 0.65ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:36.332 LabApp] Forbidden
+[W 15:50:36.333 LabApp] 403 GET /api/sessions?1553269836249 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:36.335 LabApp] Forbidden
+[W 15:50:36.336 LabApp] 403 GET /api/terminals?1553269836251 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:46.323 LabApp] Forbidden
+[W 15:50:46.323 LabApp] 403 GET /api/sessions?1553269846236 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:46.324 LabApp] Forbidden
+[W 15:50:46.324 LabApp] 403 GET /api/terminals?1553269846239 (61.224.85.247) 0.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:56.336 LabApp] Forbidden
+[W 15:50:56.337 LabApp] 403 GET /api/sessions?1553269856254 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:56.338 LabApp] Forbidden
+[W 15:50:56.338 LabApp] 403 GET /api/terminals?1553269856256 (61.224.85.247) 0.76ms referer=http://34.73.41.71:5920/lab?
+[W 15:50:59.318 LabApp] Forbidden
+[W 15:50:59.318 LabApp] 403 GET /api/contents/?content=1&1553269859236 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:02.337 LabApp] Forbidden
+[W 15:51:02.337 LabApp] 403 GET /api/kernelspecs?1553269862255 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:06.330 LabApp] Forbidden
+[W 15:51:06.330 LabApp] 403 GET /api/sessions?1553269866248 (61.224.85.247) 1.15ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:06.335 LabApp] Forbidden
+[W 15:51:06.335 LabApp] 403 GET /api/terminals?1553269866250 (61.224.85.247) 1.24ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:16.322 LabApp] Forbidden
+[W 15:51:16.322 LabApp] 403 GET /api/sessions?1553269876239 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:16.323 LabApp] Forbidden
+[W 15:51:16.324 LabApp] 403 GET /api/terminals?1553269876241 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:26.365 LabApp] Forbidden
+[W 15:51:26.366 LabApp] 403 GET /api/terminals?1553269886261 (61.224.85.247) 1.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:26.366 LabApp] Forbidden
+[W 15:51:26.366 LabApp] 403 GET /api/sessions?1553269886253 (61.224.85.247) 1.56ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:36.362 LabApp] Forbidden
+[W 15:51:36.362 LabApp] 403 GET /api/sessions?1553269896250 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:36.363 LabApp] Forbidden
+[W 15:51:36.363 LabApp] 403 GET /api/terminals?1553269896257 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:46.324 LabApp] Forbidden
+[W 15:51:46.325 LabApp] 403 GET /api/sessions?1553269906240 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:46.325 LabApp] Forbidden
+[W 15:51:46.326 LabApp] 403 GET /api/terminals?1553269906241 (61.224.85.247) 0.75ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:56.334 LabApp] Forbidden
+[W 15:51:56.335 LabApp] 403 GET /api/sessions?1553269916251 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 15:51:56.336 LabApp] Forbidden
+[W 15:51:56.336 LabApp] 403 GET /api/terminals?1553269916254 (61.224.85.247) 0.66ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:03.358 LabApp] Forbidden
+[W 15:52:03.358 LabApp] 403 GET /api/kernelspecs?1553269923251 (61.224.85.247) 1.47ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:06.347 LabApp] Forbidden
+[W 15:52:06.347 LabApp] 403 GET /api/sessions?1553269926250 (61.224.85.247) 1.39ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:06.348 LabApp] Forbidden
+[W 15:52:06.348 LabApp] 403 GET /api/terminals?1553269926253 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:16.314 LabApp] Forbidden
+[W 15:52:16.314 LabApp] 403 GET /api/sessions?1553269936232 (61.224.85.247) 1.19ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:16.315 LabApp] Forbidden
+[W 15:52:16.315 LabApp] 403 GET /api/terminals?1553269936234 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:26.344 LabApp] Forbidden
+[W 15:52:26.345 LabApp] 403 GET /api/sessions?1553269946257 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:26.346 LabApp] Forbidden
+[W 15:52:26.346 LabApp] 403 GET /api/terminals?1553269946261 (61.224.85.247) 0.72ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:36.356 LabApp] Forbidden
+[W 15:52:36.356 LabApp] 403 GET /api/sessions?1553269956252 (61.224.85.247) 1.43ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:36.357 LabApp] Forbidden
+[W 15:52:36.357 LabApp] 403 GET /api/terminals?1553269956254 (61.224.85.247) 1.27ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:39.422 LabApp] Forbidden
+[W 15:52:39.422 LabApp] 403 GET /api/contents/?content=1&1553269959242 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:46.322 LabApp] Forbidden
+[W 15:52:46.323 LabApp] 403 GET /api/sessions?1553269966240 (61.224.85.247) 1.07ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:46.323 LabApp] Forbidden
+[W 15:52:46.324 LabApp] 403 GET /api/terminals?1553269966242 (61.224.85.247) 0.59ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:56.338 LabApp] Forbidden
+[W 15:52:56.338 LabApp] 403 GET /api/sessions?1553269976253 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 15:52:56.344 LabApp] Forbidden
+[W 15:52:56.345 LabApp] 403 GET /api/terminals?1553269976256 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:04.321 LabApp] Forbidden
+[W 15:53:04.322 LabApp] 403 GET /api/kernelspecs?1553269984238 (61.224.85.247) 1.14ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:06.355 LabApp] Forbidden
+[W 15:53:06.355 LabApp] 403 GET /api/sessions?1553269986253 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:06.356 LabApp] Forbidden
+[W 15:53:06.356 LabApp] 403 GET /api/terminals?1553269986255 (61.224.85.247) 0.70ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:16.325 LabApp] Forbidden
+[W 15:53:16.325 LabApp] 403 GET /api/sessions?1553269996240 (61.224.85.247) 1.49ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:16.328 LabApp] Forbidden
+[W 15:53:16.328 LabApp] 403 GET /api/terminals?1553269996244 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:26.342 LabApp] Forbidden
+[W 15:53:26.343 LabApp] 403 GET /api/sessions?1553270006259 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:26.343 LabApp] Forbidden
+[W 15:53:26.344 LabApp] 403 GET /api/terminals?1553270006262 (61.224.85.247) 0.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:36.338 LabApp] Forbidden
+[W 15:53:36.338 LabApp] 403 GET /api/sessions?1553270016255 (61.224.85.247) 1.42ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:36.353 LabApp] Forbidden
+[W 15:53:36.353 LabApp] 403 GET /api/terminals?1553270016258 (61.224.85.247) 1.07ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:46.322 LabApp] Forbidden
+[W 15:53:46.323 LabApp] 403 GET /api/sessions?1553270026241 (61.224.85.247) 1.16ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:46.324 LabApp] Forbidden
+[W 15:53:46.324 LabApp] 403 GET /api/terminals?1553270026242 (61.224.85.247) 0.65ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:56.350 LabApp] Forbidden
+[W 15:53:56.350 LabApp] 403 GET /api/sessions?1553270036255 (61.224.85.247) 1.76ms referer=http://34.73.41.71:5920/lab?
+[W 15:53:56.350 LabApp] Forbidden
+[W 15:53:56.351 LabApp] 403 GET /api/terminals?1553270036260 (61.224.85.247) 1.59ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:05.339 LabApp] Forbidden
+[W 15:54:05.339 LabApp] 403 GET /api/kernelspecs?1553270045254 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:06.370 LabApp] Forbidden
+[W 15:54:06.370 LabApp] 403 GET /api/sessions?1553270046256 (61.224.85.247) 1.07ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:06.371 LabApp] Forbidden
+[W 15:54:06.371 LabApp] 403 GET /api/terminals?1553270046257 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:16.324 LabApp] Forbidden
+[W 15:54:16.324 LabApp] 403 GET /api/sessions?1553270056240 (61.224.85.247) 1.47ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:16.325 LabApp] Forbidden
+[W 15:54:16.326 LabApp] 403 GET /api/terminals?1553270056244 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:20.342 LabApp] Forbidden
+[W 15:54:20.342 LabApp] 403 GET /api/contents/?content=1&1553270060260 (61.224.85.247) 1.24ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:26.324 LabApp] Forbidden
+[W 15:54:26.325 LabApp] 403 GET /api/sessions?1553270066242 (61.224.85.247) 1.04ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:26.328 LabApp] Forbidden
+[W 15:54:26.328 LabApp] 403 GET /api/terminals?1553270066244 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:36.347 LabApp] Forbidden
+[W 15:54:36.348 LabApp] 403 GET /api/terminals?1553270076257 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:36.349 LabApp] Forbidden
+[W 15:54:36.349 LabApp] 403 GET /api/sessions?1553270076256 (61.224.85.247) 0.81ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:46.332 LabApp] Forbidden
+[W 15:54:46.333 LabApp] 403 GET /api/sessions?1553270086245 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:46.334 LabApp] Forbidden
+[W 15:54:46.334 LabApp] 403 GET /api/terminals?1553270086252 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:56.329 LabApp] Forbidden
+[W 15:54:56.329 LabApp] 403 GET /api/sessions?1553270096246 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 15:54:56.331 LabApp] Forbidden
+[W 15:54:56.331 LabApp] 403 GET /api/terminals?1553270096249 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:06.346 LabApp] Forbidden
+[W 15:55:06.346 LabApp] 403 GET /api/kernelspecs?1553270106261 (61.224.85.247) 1.52ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:06.347 LabApp] Forbidden
+[W 15:55:06.347 LabApp] 403 GET /api/sessions?1553270106257 (61.224.85.247) 1.45ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:06.542 LabApp] Forbidden
+[W 15:55:06.543 LabApp] 403 GET /api/terminals?1553270106263 (61.224.85.247) 1.20ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:16.331 LabApp] Forbidden
+[W 15:55:16.331 LabApp] 403 GET /api/sessions?1553270116246 (61.224.85.247) 1.42ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:16.332 LabApp] Forbidden
+[W 15:55:16.332 LabApp] 403 GET /api/terminals?1553270116250 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:26.342 LabApp] Forbidden
+[W 15:55:26.342 LabApp] 403 GET /api/sessions?1553270126244 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:26.343 LabApp] Forbidden
+[W 15:55:26.343 LabApp] 403 GET /api/terminals?1553270126246 (61.224.85.247) 0.82ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:36.348 LabApp] Forbidden
+[W 15:55:36.349 LabApp] 403 GET /api/sessions?1553270136263 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:36.349 LabApp] Forbidden
+[W 15:55:36.350 LabApp] 403 GET /api/terminals?1553270136265 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:46.347 LabApp] Forbidden
+[W 15:55:46.347 LabApp] 403 GET /api/sessions?1553270146251 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:46.349 LabApp] Forbidden
+[W 15:55:46.349 LabApp] 403 GET /api/terminals?1553270146258 (61.224.85.247) 0.93ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:56.353 LabApp] Forbidden
+[W 15:55:56.354 LabApp] 403 GET /api/sessions?1553270156263 (61.224.85.247) 1.36ms referer=http://34.73.41.71:5920/lab?
+[W 15:55:56.356 LabApp] Forbidden
+[W 15:55:56.356 LabApp] 403 GET /api/terminals?1553270156271 (61.224.85.247) 1.00ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:01.326 LabApp] Forbidden
+[W 15:56:01.326 LabApp] 403 GET /api/contents/?content=1&1553270161236 (61.224.85.247) 1.51ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:06.340 LabApp] Forbidden
+[W 15:56:06.340 LabApp] 403 GET /api/sessions?1553270166257 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:06.341 LabApp] Forbidden
+[W 15:56:06.341 LabApp] 403 GET /api/terminals?1553270166259 (61.224.85.247) 0.78ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:07.329 LabApp] Forbidden
+[W 15:56:07.329 LabApp] 403 GET /api/kernelspecs?1553270167246 (61.224.85.247) 1.62ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:16.326 LabApp] Forbidden
+[W 15:56:16.327 LabApp] 403 GET /api/sessions?1553270176244 (61.224.85.247) 1.51ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:16.328 LabApp] Forbidden
+[W 15:56:16.328 LabApp] 403 GET /api/terminals?1553270176246 (61.224.85.247) 0.83ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:26.342 LabApp] Forbidden
+[W 15:56:26.343 LabApp] 403 GET /api/sessions?1553270186259 (61.224.85.247) 1.45ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:26.344 LabApp] Forbidden
+[W 15:56:26.344 LabApp] 403 GET /api/terminals?1553270186262 (61.224.85.247) 0.82ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:36.341 LabApp] Forbidden
+[W 15:56:36.342 LabApp] 403 GET /api/sessions?1553270196258 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:36.343 LabApp] Forbidden
+[W 15:56:36.343 LabApp] 403 GET /api/terminals?1553270196261 (61.224.85.247) 0.86ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:46.330 LabApp] Forbidden
+[W 15:56:46.330 LabApp] 403 GET /api/sessions?1553270206245 (61.224.85.247) 1.42ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:46.331 LabApp] Forbidden
+[W 15:56:46.332 LabApp] 403 GET /api/terminals?1553270206249 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:56.348 LabApp] Forbidden
+[W 15:56:56.348 LabApp] 403 GET /api/sessions?1553270216265 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 15:56:56.349 LabApp] Forbidden
+[W 15:56:56.349 LabApp] 403 GET /api/terminals?1553270216267 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:06.351 LabApp] Forbidden
+[W 15:57:06.352 LabApp] 403 GET /api/terminals?1553270226267 (61.224.85.247) 1.72ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:06.352 LabApp] Forbidden
+[W 15:57:06.352 LabApp] 403 GET /api/sessions?1553270226265 (61.224.85.247) 1.57ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:08.344 LabApp] Forbidden
+[W 15:57:08.345 LabApp] 403 GET /api/kernelspecs?1553270228260 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:16.321 LabApp] Forbidden
+[W 15:57:16.322 LabApp] 403 GET /api/sessions?1553270236237 (61.224.85.247) 1.63ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:16.323 LabApp] Forbidden
+[W 15:57:16.323 LabApp] 403 GET /api/terminals?1553270236239 (61.224.85.247) 0.82ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:26.350 LabApp] Forbidden
+[W 15:57:26.350 LabApp] 403 GET /api/sessions?1553270246266 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:26.352 LabApp] Forbidden
+[W 15:57:26.352 LabApp] 403 GET /api/terminals?1553270246268 (61.224.85.247) 1.02ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:36.346 LabApp] Forbidden
+[W 15:57:36.347 LabApp] 403 GET /api/sessions?1553270256260 (61.224.85.247) 1.58ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:36.347 LabApp] Forbidden
+[W 15:57:36.347 LabApp] 403 GET /api/terminals?1553270256263 (61.224.85.247) 1.44ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:41.354 LabApp] Forbidden
+[W 15:57:41.355 LabApp] 403 GET /api/contents/?content=1&1553270261251 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:46.397 LabApp] Forbidden
+[W 15:57:46.398 LabApp] 403 GET /api/terminals?1553270266255 (61.224.85.247) 1.69ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:46.399 LabApp] Forbidden
+[W 15:57:46.400 LabApp] 403 GET /api/sessions?1553270266252 (61.224.85.247) 3.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:56.347 LabApp] Forbidden
+[W 15:57:56.348 LabApp] 403 GET /api/terminals?1553270276264 (61.224.85.247) 1.73ms referer=http://34.73.41.71:5920/lab?
+[W 15:57:56.348 LabApp] Forbidden
+[W 15:57:56.348 LabApp] 403 GET /api/sessions?1553270276261 (61.224.85.247) 1.56ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:06.343 LabApp] Forbidden
+[W 15:58:06.343 LabApp] 403 GET /api/sessions?1553270286260 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:06.344 LabApp] Forbidden
+[W 15:58:06.344 LabApp] 403 GET /api/terminals?1553270286261 (61.224.85.247) 0.69ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:09.358 LabApp] Forbidden
+[W 15:58:09.358 LabApp] 403 GET /api/kernelspecs?1553270289271 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:16.323 LabApp] Forbidden
+[W 15:58:16.323 LabApp] 403 GET /api/sessions?1553270296239 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:16.324 LabApp] Forbidden
+[W 15:58:16.324 LabApp] 403 GET /api/terminals?1553270296241 (61.224.85.247) 0.69ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:26.333 LabApp] Forbidden
+[W 15:58:26.333 LabApp] 403 GET /api/sessions?1553270306250 (61.224.85.247) 1.23ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:26.334 LabApp] Forbidden
+[W 15:58:26.335 LabApp] 403 GET /api/terminals?1553270306251 (61.224.85.247) 0.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:36.348 LabApp] Forbidden
+[W 15:58:36.349 LabApp] 403 GET /api/sessions?1553270316260 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:36.350 LabApp] Forbidden
+[W 15:58:36.350 LabApp] 403 GET /api/terminals?1553270316261 (61.224.85.247) 0.77ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:46.468 LabApp] Forbidden
+[W 15:58:46.469 LabApp] 403 GET /api/terminals?1553270326272 (61.224.85.247) 1.64ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:46.469 LabApp] Forbidden
+[W 15:58:46.469 LabApp] 403 GET /api/sessions?1553270326265 (61.224.85.247) 1.58ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:56.360 LabApp] Forbidden
+[W 15:58:56.360 LabApp] 403 GET /api/terminals?1553270336271 (61.224.85.247) 1.68ms referer=http://34.73.41.71:5920/lab?
+[W 15:58:56.360 LabApp] Forbidden
+[W 15:58:56.360 LabApp] 403 GET /api/sessions?1553270336269 (61.224.85.247) 1.50ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:06.346 LabApp] Forbidden
+[W 15:59:06.346 LabApp] 403 GET /api/sessions?1553270346260 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:06.347 LabApp] Forbidden
+[W 15:59:06.348 LabApp] 403 GET /api/terminals?1553270346263 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:10.333 LabApp] Forbidden
+[W 15:59:10.333 LabApp] 403 GET /api/kernelspecs?1553270350249 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:16.325 LabApp] Forbidden
+[W 15:59:16.326 LabApp] 403 GET /api/sessions?1553270356238 (61.224.85.247) 1.59ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:16.326 LabApp] Forbidden
+[W 15:59:16.326 LabApp] 403 GET /api/terminals?1553270356241 (61.224.85.247) 1.40ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:21.346 LabApp] Forbidden
+[W 15:59:21.346 LabApp] 403 GET /api/contents/?content=1&1553270361261 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:26.352 LabApp] Forbidden
+[W 15:59:26.352 LabApp] 403 GET /api/sessions?1553270366267 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:26.356 LabApp] Forbidden
+[W 15:59:26.356 LabApp] 403 GET /api/terminals?1553270366269 (61.224.85.247) 1.11ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:36.353 LabApp] Forbidden
+[W 15:59:36.353 LabApp] 403 GET /api/sessions?1553270376267 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:36.357 LabApp] Forbidden
+[W 15:59:36.357 LabApp] 403 GET /api/terminals?1553270376270 (61.224.85.247) 1.10ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:46.435 LabApp] Forbidden
+[W 15:59:46.435 LabApp] 403 GET /api/terminals?1553270386241 (61.224.85.247) 1.67ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:46.436 LabApp] Forbidden
+[W 15:59:46.436 LabApp] 403 GET /api/sessions?1553270386239 (61.224.85.247) 1.52ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:56.348 LabApp] Forbidden
+[W 15:59:56.349 LabApp] 403 GET /api/sessions?1553270396264 (61.224.85.247) 1.24ms referer=http://34.73.41.71:5920/lab?
+[W 15:59:56.350 LabApp] Forbidden
+[W 15:59:56.350 LabApp] 403 GET /api/terminals?1553270396265 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:06.357 LabApp] Forbidden
+[W 16:00:06.357 LabApp] 403 GET /api/sessions?1553270406263 (61.224.85.247) 1.69ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:06.358 LabApp] Forbidden
+[W 16:00:06.358 LabApp] 403 GET /api/terminals?1553270406271 (61.224.85.247) 1.46ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:11.347 LabApp] Forbidden
+[W 16:00:11.347 LabApp] 403 GET /api/kernelspecs?1553270411262 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:16.329 LabApp] Forbidden
+[W 16:00:16.330 LabApp] 403 GET /api/terminals?1553270416245 (61.224.85.247) 1.62ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:16.330 LabApp] Forbidden
+[W 16:00:16.330 LabApp] 403 GET /api/sessions?1553270416242 (61.224.85.247) 1.52ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:26.348 LabApp] Forbidden
+[W 16:00:26.348 LabApp] 403 GET /api/sessions?1553270426263 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:26.350 LabApp] Forbidden
+[W 16:00:26.351 LabApp] 403 GET /api/terminals?1553270426265 (61.224.85.247) 0.97ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:36.354 LabApp] Forbidden
+[W 16:00:36.354 LabApp] 403 GET /api/sessions?1553270436268 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:36.355 LabApp] Forbidden
+[W 16:00:36.356 LabApp] 403 GET /api/terminals?1553270436270 (61.224.85.247) 0.73ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:46.388 LabApp] Forbidden
+[W 16:00:46.389 LabApp] 403 GET /api/sessions?1553270446243 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:46.390 LabApp] Forbidden
+[W 16:00:46.390 LabApp] 403 GET /api/terminals?1553270446245 (61.224.85.247) 0.69ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:56.340 LabApp] Forbidden
+[W 16:00:56.341 LabApp] 403 GET /api/sessions?1553270456254 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 16:00:56.342 LabApp] Forbidden
+[W 16:00:56.342 LabApp] 403 GET /api/terminals?1553270456258 (61.224.85.247) 0.68ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:02.350 LabApp] Forbidden
+[W 16:01:02.351 LabApp] 403 GET /api/contents/?content=1&1553270462265 (61.224.85.247) 1.39ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:06.350 LabApp] Forbidden
+[W 16:01:06.351 LabApp] 403 GET /api/sessions?1553270466264 (61.224.85.247) 1.40ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:06.352 LabApp] Forbidden
+[W 16:01:06.352 LabApp] 403 GET /api/terminals?1553270466267 (61.224.85.247) 0.75ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:12.349 LabApp] Forbidden
+[W 16:01:12.349 LabApp] 403 GET /api/kernelspecs?1553270472264 (61.224.85.247) 1.27ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:16.329 LabApp] Forbidden
+[W 16:01:16.329 LabApp] 403 GET /api/sessions?1553270476242 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:16.330 LabApp] Forbidden
+[W 16:01:16.331 LabApp] 403 GET /api/terminals?1553270476244 (61.224.85.247) 0.67ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:26.381 LabApp] Forbidden
+[W 16:01:26.381 LabApp] 403 GET /api/terminals?1553270486270 (61.224.85.247) 1.91ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:26.382 LabApp] Forbidden
+[W 16:01:26.382 LabApp] 403 GET /api/sessions?1553270486264 (61.224.85.247) 1.74ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:36.350 LabApp] Forbidden
+[W 16:01:36.350 LabApp] 403 GET /api/sessions?1553270496265 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:36.352 LabApp] Forbidden
+[W 16:01:36.352 LabApp] 403 GET /api/terminals?1553270496267 (61.224.85.247) 0.98ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:46.332 LabApp] Forbidden
+[W 16:01:46.333 LabApp] 403 GET /api/sessions?1553270506244 (61.224.85.247) 1.26ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:46.333 LabApp] Forbidden
+[W 16:01:46.333 LabApp] 403 GET /api/terminals?1553270506248 (61.224.85.247) 0.71ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:56.363 LabApp] Forbidden
+[W 16:01:56.363 LabApp] 403 GET /api/sessions?1553270516271 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:01:56.364 LabApp] Forbidden
+[W 16:01:56.365 LabApp] 403 GET /api/terminals?1553270516275 (61.224.85.247) 0.80ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:06.356 LabApp] Forbidden
+[W 16:02:06.356 LabApp] 403 GET /api/sessions?1553270526265 (61.224.85.247) 1.35ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:06.363 LabApp] Forbidden
+[W 16:02:06.363 LabApp] 403 GET /api/terminals?1553270526271 (61.224.85.247) 1.21ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:13.332 LabApp] Forbidden
+[W 16:02:13.332 LabApp] 403 GET /api/kernelspecs?1553270533245 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:16.329 LabApp] Forbidden
+[W 16:02:16.330 LabApp] 403 GET /api/sessions?1553270536245 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:16.335 LabApp] Forbidden
+[W 16:02:16.335 LabApp] 403 GET /api/terminals?1553270536247 (61.224.85.247) 1.23ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:26.377 LabApp] Forbidden
+[W 16:02:26.377 LabApp] 403 GET /api/sessions?1553270546272 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:26.378 LabApp] Forbidden
+[W 16:02:26.378 LabApp] 403 GET /api/terminals?1553270546276 (61.224.85.247) 0.70ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:36.356 LabApp] Forbidden
+[W 16:02:36.356 LabApp] 403 GET /api/sessions?1553270556266 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:36.358 LabApp] Forbidden
+[W 16:02:36.358 LabApp] 403 GET /api/terminals?1553270556270 (61.224.85.247) 0.99ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:42.354 LabApp] Forbidden
+[W 16:02:42.355 LabApp] 403 GET /api/contents/?content=1&1553270562270 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:46.347 LabApp] Forbidden
+[W 16:02:46.348 LabApp] 403 GET /api/sessions?1553270566244 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:46.349 LabApp] Forbidden
+[W 16:02:46.349 LabApp] 403 GET /api/terminals?1553270566247 (61.224.85.247) 0.94ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:56.360 LabApp] Forbidden
+[W 16:02:56.361 LabApp] 403 GET /api/sessions?1553270576268 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:02:56.361 LabApp] Forbidden
+[W 16:02:56.362 LabApp] 403 GET /api/terminals?1553270576271 (61.224.85.247) 0.81ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:06.103 LabApp] Forbidden
+[W 16:03:06.103 LabApp] 403 GET /api/sessions?1553270586012 (61.224.85.247) 1.62ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:06.104 LabApp] Forbidden
+[W 16:03:06.104 LabApp] 403 GET /api/terminals?1553270586019 (61.224.85.247) 1.38ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:14.113 LabApp] Forbidden
+[W 16:03:14.113 LabApp] 403 GET /api/kernelspecs?1553270594012 (61.224.85.247) 1.27ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:16.098 LabApp] Forbidden
+[W 16:03:16.098 LabApp] 403 GET /api/sessions?1553270596013 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:16.103 LabApp] Forbidden
+[W 16:03:16.104 LabApp] 403 GET /api/terminals?1553270596020 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:26.361 LabApp] Forbidden
+[W 16:03:26.361 LabApp] 403 GET /api/terminals?1553270606271 (61.224.85.247) 1.79ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:26.362 LabApp] Forbidden
+[W 16:03:26.362 LabApp] 403 GET /api/sessions?1553270606269 (61.224.85.247) 1.58ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:36.366 LabApp] Forbidden
+[W 16:03:36.367 LabApp] 403 GET /api/sessions?1553270616280 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:36.368 LabApp] Forbidden
+[W 16:03:36.368 LabApp] 403 GET /api/terminals?1553270616282 (61.224.85.247) 0.72ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:46.425 LabApp] Forbidden
+[W 16:03:46.426 LabApp] 403 GET /api/terminals?1553270626249 (61.224.85.247) 1.30ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:46.427 LabApp] Forbidden
+[W 16:03:46.427 LabApp] 403 GET /api/sessions?1553270626247 (61.224.85.247) 1.04ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:56.381 LabApp] Forbidden
+[W 16:03:56.382 LabApp] 403 GET /api/sessions?1553270636282 (61.224.85.247) 1.39ms referer=http://34.73.41.71:5920/lab?
+[W 16:03:56.396 LabApp] Forbidden
+[W 16:03:56.396 LabApp] 403 GET /api/terminals?1553270636292 (61.224.85.247) 1.25ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:06.353 LabApp] Forbidden
+[W 16:04:06.354 LabApp] 403 GET /api/sessions?1553270646268 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:06.356 LabApp] Forbidden
+[W 16:04:06.356 LabApp] 403 GET /api/terminals?1553270646270 (61.224.85.247) 1.00ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:15.353 LabApp] Forbidden
+[W 16:04:15.354 LabApp] 403 GET /api/kernelspecs?1553270655269 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:16.343 LabApp] Forbidden
+[W 16:04:16.344 LabApp] 403 GET /api/sessions?1553270656259 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:16.345 LabApp] Forbidden
+[W 16:04:16.345 LabApp] 403 GET /api/terminals?1553270656261 (61.224.85.247) 0.79ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:23.358 LabApp] Forbidden
+[W 16:04:23.358 LabApp] 403 GET /api/contents/?content=1&1553270663260 (61.224.85.247) 1.37ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:26.356 LabApp] Forbidden
+[W 16:04:26.356 LabApp] 403 GET /api/sessions?1553270666271 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:26.358 LabApp] Forbidden
+[W 16:04:26.359 LabApp] 403 GET /api/terminals?1553270666272 (61.224.85.247) 1.22ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:36.354 LabApp] Forbidden
+[W 16:04:36.354 LabApp] 403 GET /api/sessions?1553270676269 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:36.356 LabApp] Forbidden
+[W 16:04:36.356 LabApp] 403 GET /api/terminals?1553270676271 (61.224.85.247) 0.96ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:46.548 LabApp] Forbidden
+[W 16:04:46.549 LabApp] 403 GET /api/sessions?1553270686304 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:46.549 LabApp] Forbidden
+[W 16:04:46.550 LabApp] 403 GET /api/terminals?1553270686352 (61.224.85.247) 0.81ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:56.369 LabApp] Forbidden
+[W 16:04:56.369 LabApp] 403 GET /api/sessions?1553270696272 (61.224.85.247) 1.28ms referer=http://34.73.41.71:5920/lab?
+[W 16:04:56.370 LabApp] Forbidden
+[W 16:04:56.371 LabApp] 403 GET /api/terminals?1553270696274 (61.224.85.247) 0.74ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:06.371 LabApp] Forbidden
+[W 16:05:06.371 LabApp] 403 GET /api/sessions?1553270706280 (61.224.85.247) 1.42ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:06.374 LabApp] Forbidden
+[W 16:05:06.374 LabApp] 403 GET /api/terminals?1553270706284 (61.224.85.247) 1.06ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:16.352 LabApp] Forbidden
+[W 16:05:16.353 LabApp] 403 GET /api/sessions?1553270716258 (61.224.85.247) 1.32ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:16.366 LabApp] Forbidden
+[W 16:05:16.366 LabApp] 403 GET /api/kernelspecs?1553270716260 (61.224.85.247) 1.22ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:16.551 LabApp] Forbidden
+[W 16:05:16.552 LabApp] 403 GET /api/terminals?1553270716271 (61.224.85.247) 1.18ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:26.150 LabApp] Forbidden
+[W 16:05:26.150 LabApp] 403 GET /api/sessions?1553270726051 (61.224.85.247) 1.29ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:26.166 LabApp] Forbidden
+[W 16:05:26.167 LabApp] 403 GET /api/terminals?1553270726065 (61.224.85.247) 1.27ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:46.868 LabApp] Forbidden
+[W 16:05:46.869 LabApp] 403 GET /api/kernelspecs?1553270746414 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:46.885 LabApp] Forbidden
+[W 16:05:46.886 LabApp] 403 GET /api/terminals?1553270746791 (61.224.85.247) 1.24ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.490 LabApp] Forbidden
+[W 16:05:47.490 LabApp] 403 GET /lab/api/settings/@jupyterlab/shortcuts-extension:plugin?1553270747181 (61.224.85.247) 1.33ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.491 LabApp] Forbidden
+[W 16:05:47.492 LabApp] 403 GET /lab/api/settings/@jupyterlab/application-extension:sidebar?1553270747168 (61.224.85.247) 0.82ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.768 LabApp] Forbidden
+[W 16:05:47.768 LabApp] 403 GET /lab/api/settings/@jupyterlab/docmanager-extension:plugin?1553270747206 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.769 LabApp] Forbidden
+[W 16:05:47.769 LabApp] 403 GET /lab/api/settings/@jupyterlab/apputils-extension:themes?1553270747211 (61.224.85.247) 0.80ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.770 LabApp] Forbidden
+[W 16:05:47.771 LabApp] 403 GET /lab/api/build?1553270747646 (61.224.85.247) 1.17ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:47.771 LabApp] Forbidden
+[W 16:05:47.771 LabApp] 403 GET /api/contents/?content=1&1553270747663 (61.224.85.247) 1.40ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.119 LabApp] Forbidden
+[W 16:05:48.120 LabApp] 403 GET /lab/api/settings/@jupyterlab/extensionmanager-extension:plugin?1553270747768 (61.224.85.247) 1.34ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.120 LabApp] Forbidden
+[W 16:05:48.121 LabApp] 403 GET /api/nbconvert?1553270747809 (61.224.85.247) 0.98ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.122 LabApp] Forbidden
+[W 16:05:48.122 LabApp] 403 GET /lab/api/settings/@jupyterlab/notebook-extension:tracker?1553270747798 (61.224.85.247) 1.08ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.123 LabApp] Forbidden
+[W 16:05:48.123 LabApp] 403 GET /lab/api/settings/@jupyterlab/fileeditor-extension:plugin?1553270747837 (61.224.85.247) 1.13ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.124 LabApp] Forbidden
+[W 16:05:48.124 LabApp] 403 GET /api/nbconvert?1553270747981 (61.224.85.247) 0.65ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.128 LabApp] Forbidden
+[W 16:05:48.128 LabApp] 403 GET /lab/api/settings/@jupyterlab/codemirror-extension:commands?1553270747990 (61.224.85.247) 1.00ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:48.334 LabApp] Forbidden
+[W 16:05:48.335 LabApp] 403 GET /api/sessions?1553270748003 (61.224.85.247) 1.31ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:49.101 LabApp] Forbidden
+[W 16:05:49.101 LabApp] 403 GET /lab/api/workspaces/lab?1553270748963 (61.224.85.247) 2.75ms referer=http://34.73.41.71:5920/lab?
+[W 16:05:50.691 LabApp] Forbidden
+[W 16:05:50.691 LabApp] 403 PUT /lab/api/workspaces/lab?1553270750513 (61.224.85.247) 1.57ms referer=http://34.73.41.71:5920/lab?
+[I 16:05:55.725 LabApp] 302 GET /lab? (61.224.85.247) 1.47ms
+[I 16:06:02.772 LabApp] 302 POST /login?next=%2Flab%3F (61.224.85.247) 1.38ms
+[W 16:06:04.430 LabApp] Could not determine jupyterlab build status without nodejs
+[I 16:06:11.028 LabApp] Writing notebook-signing key to /home/spyro12393/.local/share/jupyter/notebook_secret
+[W 16:06:11.030 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[I 16:06:59.499 LabApp] Kernel started: 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:06:59.925 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:07:00.330 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:07:00.753 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:50:28.633 LabApp] Saving file at /hierarchical clustering.ipynb
+[W 16:50:28.633 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[W 16:50:44.432 LabApp] Notebook kmeans.ipynb is not trusted
+[I 16:50:46.653 LabApp] Kernel started: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:50:47.130 LabApp] Adapting to protocol v5.1 for kernel 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[W 16:51:09.401 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[I 16:51:10.639 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:51:34.652 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7 restarted
+[I 16:52:39.741 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:39.885 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.016 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.243 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.352 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.486 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.732 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:40.835 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:52:47.203 LabApp] Saving file at /kmeans.ipynb
+[W 16:52:47.203 LabApp] Notebook kmeans.ipynb is not trusted
+[I 16:53:10.457 LabApp] Saving file at /hierarchical clustering.ipynb
+[W 16:53:10.457 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[W 16:53:10.503 LabApp] Notebook python.ipynb is not trusted
+[I 16:53:13.490 LabApp] Kernel started: f9958432-d33e-497a-84a9-fe1917350cb2
+[I 16:53:13.989 LabApp] Adapting to protocol v5.1 for kernel f9958432-d33e-497a-84a9-fe1917350cb2
+[W 16:53:28.462 LabApp] Notebook Untitled.ipynb is not trusted
+[I 16:53:29.140 LabApp] Kernel started: 830c39f1-965a-436a-bab8-6d41f0ad3f2a
+[I 16:53:29.739 LabApp] Adapting to protocol v5.1 for kernel 830c39f1-965a-436a-bab8-6d41f0ad3f2a
+[W 16:53:30.280 LabApp] Notebook zoo_kmeans.ipynb is not trusted
+[I 16:53:31.073 LabApp] Kernel started: f002861b-72ea-4d31-8817-d68d7779e549
+[I 16:53:31.624 LabApp] Adapting to protocol v5.1 for kernel f002861b-72ea-4d31-8817-d68d7779e549
+[I 16:54:43.593 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:43.731 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:43.883 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.072 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.213 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.372 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.478 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.673 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:44.825 LabApp] Kernel interrupted: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:54:48.657 LabApp] Saving file at /kmeans.ipynb
+[W 16:54:48.658 LabApp] Notebook kmeans.ipynb is not trusted
+[I 16:55:10.996 LabApp] Saving file at /hierarchical clustering.ipynb
+[W 16:55:10.996 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[W 16:55:21.134 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[I 16:55:22.460 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:56:01.081 LabApp] Starting buffering for 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7:ee6086c2-590d-4174-8f94-5dd16e65dd93
+[I 16:56:01.082 LabApp] Starting buffering for 830c39f1-965a-436a-bab8-6d41f0ad3f2a:cc58dc19-88a1-4b73-99e4-570e8207e8ee
+[I 16:56:01.083 LabApp] Starting buffering for f002861b-72ea-4d31-8817-d68d7779e549:5b316723-98e2-46ef-bcd7-8cb7662a1448
+[I 16:56:01.083 LabApp] Starting buffering for f9958432-d33e-497a-84a9-fe1917350cb2:2c1b6d4c-2112-4a87-9fb7-3bff4bd5c4d9
+[I 16:56:01.084 LabApp] Starting buffering for 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad:d3ba7565-6007-4131-96fb-4da1623e60de
+[W 16:56:08.689 LabApp] Could not determine jupyterlab build status without nodejs
+[I 16:56:09.281 LabApp] Adapting to protocol v5.1 for kernel f002861b-72ea-4d31-8817-d68d7779e549
+[W 16:56:10.748 LabApp] Notebook zoo_kmeans.ipynb is not trusted
+[W 16:56:10.762 LabApp] Notebook kmeans.ipynb is not trusted
+[I 16:56:10.771 LabApp] Starting buffering for f002861b-72ea-4d31-8817-d68d7779e549:fce6c6f9-69b1-4ee8-8d56-e18a78e0cc3f
+[W 16:56:10.793 LabApp] Notebook python.ipynb is not trusted
+[W 16:56:10.816 LabApp] Notebook hierarchical clustering.ipynb is not trusted
+[W 16:56:10.823 LabApp] Notebook Untitled.ipynb is not trusted
+[I 16:56:12.015 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 16:56:12.443 LabApp] Adapting to protocol v5.1 for kernel 830c39f1-965a-436a-bab8-6d41f0ad3f2a
+[I 16:56:12.856 LabApp] Adapting to protocol v5.1 for kernel f002861b-72ea-4d31-8817-d68d7779e549
+[I 16:56:13.269 LabApp] Adapting to protocol v5.1 for kernel 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 16:56:13.684 LabApp] Adapting to protocol v5.1 for kernel f9958432-d33e-497a-84a9-fe1917350cb2
+[I 16:56:49.038 LabApp] Creating new notebook in /
+[I 16:56:50.521 LabApp] Kernel started: e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c
+[I 16:56:51.343 LabApp] Adapting to protocol v5.1 for kernel e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c
+[I 16:58:11.741 LabApp] Saving file at /hierarchical clustering1.ipynb
+[W 16:58:11.742 LabApp] Notebook hierarchical clustering1.ipynb is not trusted
+[I 16:58:12.216 LabApp] Saving file at /kmeans.ipynb
+[W 16:58:12.216 LabApp] Notebook kmeans.ipynb is not trusted
+[I 16:58:50.798 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:00:51.423 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:02:51.986 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:04:52.455 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:06:52.917 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:08:53.380 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:10:54.679 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:12:55.154 LabApp] Saving file at /hierarchical clustering.ipynb
+[W 17:13:15.076 LabApp] Notebook hierarchical clustering1.ipynb is not trusted
+[I 17:13:16.107 LabApp] Adapting to protocol v5.1 for kernel 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[I 17:13:30.165 LabApp] Kernel shutdown: 45a0e6e5-dc22-4235-8ee7-8fd86c6bacad
+[W 17:13:30.464 LabApp] delete /hierarchical clustering1.ipynb
+[I 17:14:55.608 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:16:56.759 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:20:15.755 LabApp] Saving file at /kmeans.ipynb
+[W 17:20:15.756 LabApp] Notebook kmeans.ipynb is not trusted
+[I 17:22:16.750 LabApp] Saving file at /kmeans.ipynb
+[W 17:22:16.751 LabApp] Notebook kmeans.ipynb is not trusted
+[I 17:24:17.245 LabApp] Saving file at /kmeans.ipynb
+[W 17:24:17.245 LabApp] Notebook kmeans.ipynb is not trusted
+[I 17:26:18.345 LabApp] Saving file at /kmeans.ipynb
+[W 17:26:18.346 LabApp] Notebook kmeans.ipynb is not trusted
+[I 17:28:41.635 LabApp] Starting buffering for e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c:485d9baa-54fe-47eb-b101-48c0ff35882f
+[I 17:28:41.640 LabApp] Starting buffering for f9958432-d33e-497a-84a9-fe1917350cb2:d7f2cd00-fb73-4869-9364-e047a05a82cc
+[I 17:28:41.685 LabApp] Starting buffering for f002861b-72ea-4d31-8817-d68d7779e549:91b94fc2-5fa4-4ab3-8003-289202dcafa9
+[I 17:28:41.688 LabApp] Starting buffering for 830c39f1-965a-436a-bab8-6d41f0ad3f2a:ce886e0a-1627-4657-8e1e-0982cd37b704
+[I 17:28:41.730 LabApp] Starting buffering for 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7:cbba0ee6-9e15-47d3-90a9-db95677fdffb
+[W 17:29:19.523 LabApp] Could not determine jupyterlab build status without nodejs
+[W 17:29:20.686 LabApp] Notebook zoo_kmeans.ipynb is not trusted
+[W 17:29:20.897 LabApp] Notebook python.ipynb is not trusted
+[W 17:29:20.928 LabApp] Notebook kmeans.ipynb is not trusted
+[W 17:29:20.959 LabApp] Notebook Untitled.ipynb is not trusted
+[I 17:29:21.564 LabApp] Adapting to protocol v5.1 for kernel f002861b-72ea-4d31-8817-d68d7779e549
+[I 17:29:21.970 LabApp] Adapting to protocol v5.1 for kernel 830c39f1-965a-436a-bab8-6d41f0ad3f2a
+[I 17:29:23.943 LabApp] Adapting to protocol v5.1 for kernel e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c
+[I 17:29:24.362 LabApp] Adapting to protocol v5.1 for kernel f9958432-d33e-497a-84a9-fe1917350cb2
+[I 17:29:24.773 LabApp] Adapting to protocol v5.1 for kernel 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 17:29:29.344 LabApp] Adapting to protocol v5.1 for kernel e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c
+[I 17:30:37.171 LabApp] Creating new notebook in /
+[I 17:30:38.183 LabApp] Kernel started: 63e01d19-a7ab-40a9-b918-dd9a9ddff529
+[I 17:30:38.712 LabApp] Adapting to protocol v5.1 for kernel 63e01d19-a7ab-40a9-b918-dd9a9ddff529
+[I 17:31:21.422 LabApp] Saving file at /zoo_kmeans.ipynb
+[I 17:32:39.921 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:34:40.351 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:36:40.781 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:37:25.302 LabApp] Saving file at /hierarchical clustering.ipynb
+[I 17:38:41.706 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:42:42.716 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:44:43.171 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:45:24.715 LabApp] Saving file at /zoo_kmeans.ipynb
+[I 17:49:28.661 LabApp] Saving file at /kmeans.ipynb
+[W 17:49:28.662 LabApp] Notebook kmeans.ipynb is not trusted
+[I 17:50:43.773 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:52:44.216 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:54:44.657 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:55:52.487 LabApp] Creating new notebook in /
+[I 17:55:53.456 LabApp] Kernel started: 6ed07101-615b-4d36-83db-dce680dd5d71
+[I 17:56:20.074 LabApp] Kernel shutdown: 6ed07101-615b-4d36-83db-dce680dd5d71
+[I 17:56:20.077 LabApp] Creating new notebook in /
+[W 17:56:20.372 LabApp] delete /Untitled1.ipynb
+[I 17:56:21.029 LabApp] Kernel started: d816d0e4-31af-4193-a7f3-c1eff1969538
+[I 17:56:34.224 LabApp] Kernel interrupted: d816d0e4-31af-4193-a7f3-c1eff1969538
+[I 17:56:34.352 LabApp] Kernel interrupted: d816d0e4-31af-4193-a7f3-c1eff1969538
+[I 17:56:34.527 LabApp] Kernel interrupted: d816d0e4-31af-4193-a7f3-c1eff1969538
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/linecache.py", line 47, in getlines
+    return updatecache(filename, module_globals)
+  File "/usr/lib/python3.6/linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "/usr/lib/python3.6/tokenize.py", line 454, in open
+    encoding, lines = detect_encoding(buffer.readline)
+  File "/usr/lib/python3.6/tokenize.py", line 423, in detect_encoding
+    first = read_or_stop()
+  File "/usr/lib/python3.6/tokenize.py", line 381, in read_or_stop
+    return readline()
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.6/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "/usr/local/lib/python3.6/dist-packages/traitlets/config/application.py", line 657, in launch_instance
+    app.initialize(argv)
+  File "</usr/local/lib/python3.6/dist-packages/decorator.py:decorator-gen-124>", line 2, in initialize
+  File "/usr/local/lib/python3.6/dist-packages/traitlets/config/application.py", line 87, in catch_config_error
+    return method(app, *args, **kwargs)
+  File "/usr/local/lib/python3.6/dist-packages/ipykernel/kernelapp.py", line 469, in initialize
+    self.init_sockets()
+  File "/usr/local/lib/python3.6/dist-packages/ipykernel/kernelapp.py", line 232, in init_sockets
+    context = zmq.Context.instance()
+  File "/usr/local/lib/python3.6/dist-packages/zmq/sugar/context.py", line 108, in instance
+    cls._instance = cls(io_threads=io_threads)
+  File "zmq/backend/cython/context.pyx", line 54, in zmq.backend.cython.context.Context.__cinit__
+  File "zmq/backend/cython/checkrc.pxd", line 12, in zmq.backend.cython.checkrc._check_rc
+KeyboardInterrupt
+[I 17:56:36.029 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+[I 17:56:36.496 LabApp] Adapting to protocol v5.1 for kernel d816d0e4-31af-4193-a7f3-c1eff1969538
+[I 17:56:43.001 LabApp] Creating new notebook in /
+[I 17:56:43.977 LabApp] Kernel started: 4d0f9f29-ced3-4123-a30e-3c3dee7c413d
+[I 17:56:44.489 LabApp] Adapting to protocol v5.1 for kernel 4d0f9f29-ced3-4123-a30e-3c3dee7c413d
+[I 17:56:45.284 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 17:56:53.948 LabApp] Kernel shutdown: d816d0e4-31af-4193-a7f3-c1eff1969538
+[W 17:56:53.950 LabApp] Timeout waiting for kernel_info reply from 6ed07101-615b-4d36-83db-dce680dd5d71
+[E 17:56:53.952 LabApp] Error opening stream: HTTP 404: Not Found (Kernel does not exist: 6ed07101-615b-4d36-83db-dce680dd5d71)
+[E 17:56:53.955 LabApp] Uncaught exception GET /api/kernels/6ed07101-615b-4d36-83db-dce680dd5d71/channels?session_id=502978c5-9ee7-479b-8abd-e8d8734eb758 (61.224.85.247)
+    HTTPServerRequest(protocol='http', host='34.73.41.71:5920', method='GET', uri='/api/kernels/6ed07101-615b-4d36-83db-dce680dd5d71/channels?session_id=502978c5-9ee7-479b-8abd-e8d8734eb758', version='HTTP/1.1', remote_ip='61.224.85.247')
+    Traceback (most recent call last):
+      File "/usr/local/lib/python3.6/dist-packages/tornado/web.py", line 1699, in _execute
+        result = await result
+      File "/usr/local/lib/python3.6/dist-packages/tornado/gen.py", line 736, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/usr/local/lib/python3.6/dist-packages/notebook/services/kernels/handlers.py", line 241, in get
+        yield super(ZMQChannelsHandler, self).get(kernel_id=kernel_id)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/gen.py", line 729, in run
+        value = future.result()
+      File "/usr/local/lib/python3.6/dist-packages/tornado/gen.py", line 736, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/usr/local/lib/python3.6/dist-packages/notebook/base/zmqhandlers.py", line 285, in get
+        yield gen.maybe_future(res)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/gen.py", line 729, in run
+        value = future.result()
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 278, in get
+        await self.ws_connection.accept_connection(self)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 877, in accept_connection
+        await self._accept_connection(handler)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 960, in _accept_connection
+        await self._receive_frame_loop()
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 1114, in _receive_frame_loop
+        await self._receive_frame()
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 1126, in _receive_frame
+        data = await self._read_bytes(2)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/websocket.py", line 1120, in _read_bytes
+        data = await self.stream.read_bytes(n)
+      File "/usr/local/lib/python3.6/dist-packages/tornado/iostream.py", line 436, in read_bytes
+        future = self._start_read()
+      File "/usr/local/lib/python3.6/dist-packages/tornado/iostream.py", line 797, in _start_read
+        assert self._read_future is None, "Already reading"
+    AssertionError: Already reading
+[W 17:56:54.270 LabApp] delete /Untitled2.ipynb
+[I 17:58:44.203 LabApp] Saving file at /Untitled1.ipynb
+[I 18:00:44.634 LabApp] Saving file at /Untitled1.ipynb
+[I 18:02:45.089 LabApp] Saving file at /Untitled1.ipynb
+[I 18:03:29.466 LabApp] Saving file at /kmeans.ipynb
+[W 18:03:29.466 LabApp] Notebook kmeans.ipynb is not trusted
+[I 18:04:45.523 LabApp] Saving file at /Untitled1.ipynb
+[I 18:04:45.769 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 18:06:46.207 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 18:07:29.978 LabApp] Saving file at /kmeans.ipynb
+[W 18:07:29.978 LabApp] Notebook kmeans.ipynb is not trusted
+[I 18:08:45.956 LabApp] Saving file at /Untitled1.ipynb
+[I 18:08:46.651 LabApp] Saving file at /zoo_hierarchical.ipynb
+[I 18:09:30.472 LabApp] Saving file at /kmeans.ipynb
+[W 18:09:30.473 LabApp] Notebook kmeans.ipynb is not trusted
+[I 18:10:46.796 LabApp] Saving file at /Untitled1.ipynb
+[I 18:12:47.883 LabApp] Saving file at /Untitled1.ipynb
+[I 18:14:48.385 LabApp] Saving file at /Untitled1.ipynb
+[I 18:16:50.273 LabApp] Saving file at /Untitled1.ipynb
+[I 18:18:50.895 LabApp] Saving file at /Untitled1.ipynb
+[I 18:20:51.643 LabApp] Saving file at /Untitled1.ipynb
+[I 18:22:52.328 LabApp] Saving file at /Untitled1.ipynb
+[I 18:24:52.995 LabApp] Saving file at /Untitled1.ipynb
+[I 18:25:31.833 LabApp] Saving file at /kmeans.ipynb
+[W 18:25:31.833 LabApp] Notebook kmeans.ipynb is not trusted
+[C 18:26:37.081 LabApp] received signal 15, stopping
+[I 18:26:37.082 LabApp] KernelRestarter: restarting kernel (1/5), keep random ports
+kernel f002861b-72ea-4d31-8817-d68d7779e549 restarted
+[I 18:26:37.091 LabApp] Shutting down 7 kernels
+[I 18:26:37.094 LabApp] Kernel shutdown: 452fe49f-bb67-48ef-bd1c-d89f9f77ebd7
+[I 18:26:37.095 LabApp] Kernel shutdown: f9958432-d33e-497a-84a9-fe1917350cb2
+[I 18:26:37.095 LabApp] Kernel shutdown: 830c39f1-965a-436a-bab8-6d41f0ad3f2a
+[I 18:26:42.113 LabApp] Kernel shutdown: f002861b-72ea-4d31-8817-d68d7779e549
+[I 18:26:42.113 LabApp] Kernel shutdown: e842b5f4-3ef6-40d2-b793-dfb3a6a9c19c
+[I 18:26:42.114 LabApp] Kernel shutdown: 63e01d19-a7ab-40a9-b918-dd9a9ddff529
+[I 18:26:42.114 LabApp] Kernel shutdown: 4d0f9f29-ced3-4123-a30e-3c3dee7c413d
